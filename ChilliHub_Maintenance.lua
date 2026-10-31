@@ -537,7 +537,7 @@ end
 closeBtn.MouseButton1Click:Connect(dismissMaintenanceScreen)
 
 -- Logic sao chép Link Discord
-local DISCORD_INVITE_LINK = "https://discord.gg/chillihub" -- Thay link discord của bạn ở đây
+local DISCORD_INVITE_LINK = "chờ đê vào discord ăn c à " -- Thay link discord của bạn ở đây
 discordBtn.MouseButton1Click:Connect(function()
     pcall(function()
         if typeof(setclipboard) == "function" then
