@@ -4664,7 +4664,7 @@ local function showFinderMaintenanceNotice(finderWin)
             end
         end)
 
-        -- 3. TIÊU ĐỀ NỔI BẬT: CHILLI FINDER UPDATE
+        -- 3. TIÊU ĐỀ NỔI BẬT: CHILLI FINDER FREE UPDATE
         local titleLbl = Instance.new("TextLabel")
         titleLbl.Name = "MaintTitle"
         titleLbl.AnchorPoint = Vector2.new(0.5, 0)
@@ -4672,7 +4672,7 @@ local function showFinderMaintenanceNotice(finderWin)
         titleLbl.Size = UDim2.new(1, -24, 0, 20)
         titleLbl.BackgroundTransparency = 1
         titleLbl.Font = Enum.Font.GothamBlack
-        titleLbl.Text = "HỆ THỐNG ĐANG BẢO TRÌ & UPDATE"
+        titleLbl.Text = "HỆ THỐNG ĐANG BẢO TRÌ UPDATE"
         titleLbl.TextColor3 = Color3.fromRGB(255, 185, 75)
         titleLbl.TextSize = 13
         titleLbl.ZIndex = card.ZIndex + 2
@@ -4715,7 +4715,7 @@ local function showFinderMaintenanceNotice(finderWin)
         viMsg.Size = UDim2.new(1, -16, 0, 44)
         viMsg.BackgroundTransparency = 1
         viMsg.Font = Enum.Font.GothamBold
-        viMsg.Text = "Chúng tôi đang tích cực sửa lỗi và update, rất xin lỗi vì sự cố này script sẽ sớm trở lại"
+        viMsg.Text = "Chúng tôi đang tích cực sửa lỗi và update, rất xin lỗi vì sự cố này chilli finder free sẽ sớm trở lại"
         viMsg.TextColor3 = Color3.fromRGB(245, 248, 255)
         viMsg.TextSize = 11.5
         viMsg.TextWrapped = true
@@ -4731,7 +4731,7 @@ local function showFinderMaintenanceNotice(finderWin)
         enMsg.Size = UDim2.new(1, -16, 0, 26)
         enMsg.BackgroundTransparency = 1
         enMsg.Font = Enum.Font.Gotham
-        enMsg.Text = "We are actively fixing bugs and updating. We sincerely apologize for this inconvenience, the script will return soon."
+        enMsg.Text = "We are actively fixing bugs and updating. We sincerely apologize for this inconvenience, the chilli finder free will return soon."
         enMsg.TextColor3 = Color3.fromRGB(150, 175, 215)
         enMsg.TextSize = 9.5
         enMsg.TextWrapped = true
