@@ -10,10 +10,10 @@ local STEAL_TAB_ICON_ID = "rbxassetid://91536384271341"
 local WALLPAPER_IMAGE_ID = "rbxassetid://90615151648668"
 local c3, u2, u2s, v2, csk = Color3.fromRGB, UDim2.new, UDim2.fromScale, Vector2.new, ColorSequenceKeypoint.new
 local LOGO_BG, BLACK_BG = c3(12, 12, 18), c3(8, 8, 12)
-local MY_URL = "https://raw.githubusercontent.com/kairobloc/stealanegg/refs/heads/main/chillihubv7.lua"
+local MY_URL = "https://raw.githubusercontent.com/napun67/stealanegg/refs/heads/main/chillihubv8.lua"
 local VENYX_URL = "https://raw.githubusercontent.com/tienkhanh1/Venyx/main/VenyxHub"
 local AUTO_FILE, LANG_FILE = "ChilliHubV5_AutoRun.lua", "ChilliV5_Lang.txt"
-local PRESET_JSON = [=[{"venyx":1,"name":"hihi 2","data":{"System / Interface/Quick bars/Show quick bars":true,"Farm / Sell/Favorite/Auto favorite":false,"System / Interface/Quick bars/Quick bar layout":"{\"pins\":{\"Event / Butterfly/Butterfly bloom/Auto butterfly bloom\":2,\"Player / Combat/Hit aura/Hit aura\":1,\"Player / Combat/Auto hit/Chase speed\":1,\"Steal / Auto Steal/Auto hop server/Auto hop\":1,\"Player / Move/Movement/Boost speed\":1,\"Player / Combat/Auto hit/Auto hit\":1,\"Steal / Auto Steal/Auto steal/Auto steal\":1,\"Event / Race/Racing Event/Auto race\":2,\"Farm / Treadmill/Treadmill/Auto treadmill\":1,\"Player / Move/Movement/Speed boost\":1},\"keys\":[],\"at\":{\"1\":[766.9053955078125,21.74544906616211],\"2\":[624.3492431640625,21.080074310302736]},\"fold\":{\"1\":true,\"2\":true}}","System / Optimizer/Graphics/Disable 3D Render":false,"Farm / Pen/Auto place/Place first":"Best value","Steal / Auto Steal/Filter/Only below /s":0,"Farm / Pen/Auto hatch/Equip best pets":false,"Event / AA/Capture the egg/Auto capture event egg":true,"Farm / Mutate/Mutate filter/Only these eggs":[],"Farm / Treadmill/Treadmill/Auto upgrade treadmill":false,"Steal / Auto Steal/Auto steal/Drop eggs at safe zone":false,"Steal / Auto Steal/Auto hop server/Auto hop":false,"System / Interface/Interface/Dim the game":0,"Player / Combat/Hit aura/Skip friends":true,"Player / ESP/Others/Pen egg ESP":true,"System / Optimizer/Frame rate/FPS position":"0.5000,-550,0.0000,49","Event / Butterfly/Butterfly bloom/Auto butterfly bloom":true,"Farm / Pen/Auto hatch/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Steal / Auto Steal/Filter/Min value /s":2000000000,"Player / Combat/Hit aura/Hit aura":true,"Event / Star/Shooting Star/Auto catch shooting star":true,"Steal / Egg Predictor/Egg showcase/Calculate mutations":[],"Steal / Egg Predictor/Egg showcase/Sort eggs":"Value","Event / Halloween/Ghost Dog and fishing/Auto fishing":true,"System / Optimizer/Bases/Hide other players' pets and eggs":true,"Player / Combat/Auto hit/Auto hit":false,"Event / Halloween/Ghost Dog and fishing/Auto Ghost Dog quest":false,"Event / Butterfly/Butterfly bloom/Catch mode":"Chase","Event / Butterfly/Butterfly machine/Trade":[],"Event / Halloween/Halloween Dimension/Halloween eggs":["Bone Emperor","Voidseer Pumpkin","Zombified Bone Emperor","Ghost Reaper","Gorillastein","Phantom Dragon","Shelltide Voyager","Zombified Grave Cerberus","Zombified Phantom Dragon","BloodBloom","Grave Cerberus","Graveyard Brute","Werewolf","Zombified Night Fang","Zombified Pumpkin Fiend","Zombified Tombstone Bear"],"Farm / Pen/Auto place/Auto place":false,"Steal / Auto Steal/Filter/Rarities":["Divine","Eternal","Secret"],"System / Webhook/What to post/Post fused eggs":false,"Event / Halloween/Halloween Dimension/Auto Pumpkin Moon":true,"Farm / Sell/Pets/Sell rarities":["Rare","Uncommon","Common"],"Player / Move/Protection/Ignore traps":true,"Farm / Fuse/Fuse filter/Rarities":["Mythic","Legendary","Epic","Rare","Uncommon","Common"],"System / Webhook/Discord webhook/Ping role ID":"","Player / ESP/Others/Hide sleeping guards":true,"Event / Halloween/Halloween Dimension/Min value /s":1000000000,"System / Optimizer/Frame rate/Show FPS and ping":true,"Farm / Treadmill/Progress/Auto claim index rewards":false,"System / Interface/Quick bars/Keybinds":true,"Steal / Auto Steal/Auto steal/Instant steps":2,"Farm / Fuse/Fuse filter/Never fuse":[],"Farm / Pen/Auto hatch/Mutations":[],"System / Optimizer/Bases/Hide my pets and eggs":true,"Event / Halloween/Monsters/Monster order":"Most tokens","Steal / Auto Steal/Filter/Zones":["Enchanted Forest","Light Dark","Titan Temple","Cherry Blossom"],"Event / Butterfly/Butterfly machine/Auto craft essence":true,"Farm / Mutate/Auto mutate/Auto mutate":false,"Player / ESP/Others/Other pens ESP":true,"Player / ESP/Field eggs/Egg ESP":false,"Farm / Pen/Keep eggs/Min value /s":0,"Steal / Auto Steal/Auto steal/Delivery method":"Instant steps","Farm / Treadmill/Progress/Auto buy trails":false,"Farm / Sell/Eggs/Sell rarities":["Rare","Uncommon","Common"],"System / Interface/Interface/Tone":100,"Event / AA/Admin abuse/Admin treadmill":false,"System / Webhook/What to post/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Farm / Pen/Auto place/Place when":"Always","Event / Halloween/Monsters/Monsters":["Candy Corn","Hollow Bat","Scarecrow","Chest Mimic","Pumpkin Golem","Soul Phantom"],"Event / Butterfly/Wisp companion/Auto banjo cricket":false,"Event / Halloween/Halloween Dimension/Auto buy Halloween Dimension Egg":false,"Event / Halloween/Halloween Dimension/Walk speed":1000,"Steal / Auto Steal/Auto steal/Delivery speed":4500,"Farm / Mutate/Auto mutate/Use items":["Fractured","Scrambled","Enchanted","Nitro","Spectral"],"Farm / Fuse/Fuse machine/Fuse first":"Lowest rarity","Steal / Auto Steal/Auto hop server/Rare from":"Cosmic","Player / Move/Movement/Boost speed":720,"System / Interface/Interface/Opacity":50,"Player / ESP/Others/Guard ESP":true,"Farm / Sell/Favorite/Always favorite":[],"Event / Halloween/Halloween Dimension/Steal speed":100,"Farm / Sell/Eggs/Auto sell eggs":false,"System / Webhook/What to post/Post stolen eggs":false,"Player / ESP/Others/ESP size":60,"Steal / Auto Steal/Filter/Steal first":"Best value","Farm / Sell/Pets/Only below /s":0,"Player / Move/Protection/Anti ragdoll":true,"Player / ESP/Field eggs/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic"],"Player / Move/Protection/Invisible":false,"Steal / Auto Steal/Auto hop server/Hop when":"After stealing a match","Event / AA/Cursed Island Wars/Auto play Cursed Island Wars":true,"Event / Butterfly/Butterfly bloom/Catch":["Radiant","Amethyst","Sapphire","Emerald"],"Farm / Treadmill/Treadmill/Auto treadmill":false,"System / Interface/Game HUD/Steal panel button on game HUD":true,"System / Server/Server/Hop to":"Least players","Farm / Mutate/Mutate filter/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Player / Move/Protection/Instant prompts":true,"System / Server/Join and stay/Rejoin on kick":true,"Farm / Sell/Favorite/Favorite equipped":false,"Event / Halloween/Phantom Express/Auto Phantom Express":true,"System / Optimizer/Frame rate/FPS cap":360,"Steal / Auto Steal/Auto steal/Steal missing index eggs":false,"Steal / Auto Steal/Filter/Only these eggs":["ArchAngel","Kitsune","Nightflame","Royal Skywhale","Unicorn","World Burner","Celestial Sunlion","Gorilla King","Pegasus","Skeleton Horse","Strawberry Elephant","67","Amethyst Runebear","Starry Fox"],"Farm / Sell/Favorite/Min value /s":0,"System / Server/Join and stay/Auto load script":false,"Farm / Mutate/Mutate filter/Skip eggs with":[],"System / Optimizer/Graphics/Low graphics":true,"Event / Halloween/Monsters/Walk speed":1000,"Event / AA/Minigame eggs/Auto steal minigame egg":true,"Farm / Pen/Auto place/Only these eggs":[],"Player / Combat/Auto hit/Hit who":"Nearest player","Farm / Sell/Eggs/Never sell":[],"Farm / Pen/Keep eggs/Eggs to keep":[],"Farm / Fuse/Fuse filter/Only below /s":0,"Event / Halloween/Monsters/Use weapons":["Enchanted Hammer","Racing Bat","Cricket's Banjo","Flyswatter"],"Farm / Fuse/Fuse machine/Skip mutated":true,"Farm / Sell/Pets/Never sell":[],"Farm / Sell/Favorite/Match":"All picked rules","Event / Halloween/Ghost Dog and fishing/Cast luck":"x1.5 Perfect","System / Optimizer/Graphics/Background color":"Black","Player / Move/Movement/God mode":true,"Farm / Pen/Auto place/Mutations":[],"Steal / Auto Steal/Auto steal/Anti guard":true,"Farm / Sell/Favorite/Unfavorite pets not matching":false,"System / Webhook/What to post/Min value /s":0,"Farm / Pen/Auto hatch/Auto hatch":false,"Farm / Sell/Pets/Only mutations":[],"Farm / Fuse/Fuse machine/Eject odd pets":true,"Event / Butterfly/Butterfly machine/Auto trade up":false,"Event / AA/Admin abuse/Instant steal":false,"System / Webhook/What to post/Post when bag is full":false,"Farm / Fuse/Fuse machine/Auto fuse":false,"Farm / Pen/Auto hatch/Only these eggs":[],"Event / Butterfly/Butterfly machine/Smart trade for essence":true,"Event / Halloween/Halloween Dimension/Auto steal Halloween eggs":true,"System / Interface/Quick bars/Bar size":85,"Player / Combat/Weapons/Use weapons":[],"Player / ESP/Others/Player ESP":true,"System / Webhook/Discord webhook/Ping everyone":false,"Farm / Fuse/Fuse machine/Use pets":"Lowest value first","Event / Halloween/Monsters/Auto farm monsters":true,"Farm / Mutate/Auto mutate/Mutate first":"Best value","Player / ESP/Field eggs/Min value /s":0,"Event / AA/Cursed Island Wars/Island Wars target":"Enemies and base","Player / Move/Movement/Infinite jump":true,"Farm / Pen/Auto place/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Player / ESP/Field eggs/Mutations":[],"Event / Halloween/Phantom Express/Auto vacuum Ghouler boss":true,"Farm / Treadmill/Progress/Auto upgrade base":false,"Steal / Auto Steal/Auto steal/Auto steal":true,"Player / Combat/Auto hit/Chase speed":1000,"Player / ESP/Field eggs/Fixed size":false,"Event / Halloween/Halloween Dimension/Instant steal Halloween eggs":true,"Event / Halloween/Phantom Express/Walk speed":1000,"Event / Halloween/Phantom Express/Ghost target":"Rarest first","Farm / Sell/Eggs/Only below /s":0,"Farm / Sell/Favorite/Rarities":[],"Steal / Auto Steal/Auto hop server/First hop after":5,"Steal / Auto Steal/Auto steal/Tween speed":110,"Farm / Sell/Pets/Auto sell pets":false,"Event / Halloween/Phantom Express/Auto trade souls":true,"Farm / Sell/Pets/Keep mutated":true,"Steal / Auto Steal/Filter/Sell cheapest egg when bag is full":false,"Player / ESP/Field eggs/Show":[],"Steal / Auto Steal/Auto steal/Go to egg":"Teleport to egg","Player / Combat/Weapons/Hold each":0.2,"Event / AA/Capture the egg/Hold height":120,"Steal / Auto Steal/Filter/Mutations":[],"Event / AA/Capture the egg/Keep away":150,"Farm / Mutate/Mutate filter/Min value /s":0,"Steal / Auto Steal/Auto steal/Teleport zones":["Enchanted Forest","Light Dark","Titan Temple","Cherry Blossom"],"Farm / Pen/Auto hatch/Min value /s":0,"Player / Move/Movement/Speed boost":false,"System / Interface/Interface/UI scale":90,"Farm / Fuse/Fuse filter/Only these pets":[],"Steal / Egg Predictor/Egg showcase/Preview card":false,"Event / Butterfly/Butterfly bloom/Catch speed":600,"Player / Move/Protection/Anti AFK":true,"Event / Halloween/Halloween Dimension/Halloween rarities":[],"System / Interface/Interface/Show / hide UI":{"k":"LeftControl"},"Steal / Auto Steal/Auto steal/Steal from other players":true,"Farm / Pen/Auto place/Min value /s":0,"Event / Butterfly/Butterfly bloom/Catch priority":"Rarest","System / Webhook/Discord webhook/Ping user ID":"","Farm / Sell/Eggs/Only mutations":[],"Farm / Treadmill/Progress/Auto claim offline cash":false,"Farm / Sell/Favorite/Mutations":[],"Event / AA/Capture the egg/Take it from the holder":true,"System / Webhook/Discord webhook/Webhook URL":"","Farm / Priority/Task order/Task order":["Steal filter eggs","Shooting Star","Phantom Express","Pumpkin Moon","Butterfly","Steal wisp eggs","Wisp","Steal missing index","Place","Mutate","Butterfly machine","Ghost Dog quest","Halloween monsters","Halloween fishing","Treadmill"],"Farm / Sell/Eggs/Keep mutated":true,"Event / Butterfly/Wisp companion/Auto wisp quest":false,"System / Optimizer/Graphics/Hide game UI":false}}]=]
+local PRESET_JSON = [=[{"venyx":1,"name":"hihi 2","data":{"System / Interface/Quick bars/Show quick bars":true,"Farm / Sell/Favorite/Auto favorite":false,"System / Interface/Quick bars/Quick bar layout":"{\"pins\":{\"Event / Butterfly/Butterfly bloom/Auto butterfly bloom\":2,\"Player / Combat/Hit aura/Hit aura\":1,\"Player / Combat/Auto hit/Chase speed\":1,\"Steal / Auto Steal/Auto hop server/Auto hop\":1,\"Player / Move/Movement/Boost speed\":1,\"Player / Combat/Auto hit/Auto hit\":1,\"Steal / Auto Steal/Auto steal/Auto steal\":1,\"Event / Race/Racing Event/Auto race\":2,\"Farm / Treadmill/Treadmill/Auto treadmill\":1,\"Player / Move/Movement/Speed boost\":1},\"keys\":[],\"at\":{\"1\":[766.9053955078125,21.74544906616211],\"2\":[624.3492431640625,21.080074310302736]},\"fold\":{\"1\":true,\"2\":true}}","System / Optimizer/Graphics/Disable 3D Render":false,"Farm / Pen/Auto place/Place first":"Best value","Steal / Auto Steal/Filter/Only below /s":0,"Farm / Pen/Auto hatch/Equip best pets":false,"Event / AA/Capture the egg/Auto capture event egg":true,"Farm / Mutate/Mutate filter/Only these eggs":[],"Farm / Treadmill/Treadmill/Auto upgrade treadmill":false,"Steal / Auto Steal/Auto steal/Drop eggs at safe zone":false,"Steal / Auto Steal/Auto hop server/Auto hop":false,"System / Interface/Interface/Dim the game":0,"Player / Combat/Hit aura/Skip friends":true,"Player / ESP/Others/Pen egg ESP":true,"System / Optimizer/Frame rate/FPS position":"0.5000,-550,0.0000,49","Event / Butterfly/Butterfly bloom/Auto butterfly bloom":true,"Farm / Pen/Auto hatch/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Steal / Auto Steal/Filter/Min value /s":2000000000,"Player / Combat/Hit aura/Hit aura":true,"Event / Star/Shooting Star/Auto catch shooting star":true,"Steal / Egg Predictor/Egg showcase/Calculate mutations":[],"Steal / Egg Predictor/Egg showcase/Sort eggs":"Value","Event / Halloween/Ghost Dog and fishing/Auto fishing":true,"System / Optimizer/Bases/Hide other players' pets and eggs":true,"Player / Combat/Auto hit/Auto hit":false,"Event / Halloween/Ghost Dog and fishing/Auto Ghost Dog quest":false,"Event / Butterfly/Butterfly bloom/Catch mode":"Chase","Event / Butterfly/Butterfly machine/Trade":[],"Event / Halloween/Halloween Dimension/Halloween eggs":["Bone Emperor","Voidseer Pumpkin","Zombified Bone Emperor","Ghost Reaper","Gorillastein","Phantom Dragon","Shelltide Voyager","Zombified Grave Cerberus","Zombified Phantom Dragon","BloodBloom","Grave Cerberus","Graveyard Brute","Werewolf","Zombified Night Fang","Zombified Pumpkin Fiend","Zombified Tombstone Bear"],"Farm / Pen/Auto place/Auto place":false,"Steal / Auto Steal/Filter/Rarities":["Divine","Eternal","Secret"],"System / Webhook/What to post/Post fused eggs":false,"Event / Halloween/Halloween Dimension/Auto Pumpkin Moon":true,"Farm / Sell/Pets/Sell rarities":["Rare","Uncommon","Common"],"Player / Move/Protection/Ignore traps":true,"Farm / Fuse/Fuse filter/Rarities":["Mythic","Legendary","Epic","Rare","Uncommon","Common"],"System / Webhook/Discord webhook/Ping role ID":"","Player / ESP/Others/Hide sleeping guards":true,"Event / Halloween/Halloween Dimension/Min value /s":1000000000,"System / Optimizer/Frame rate/Show FPS and ping":true,"Farm / Treadmill/Progress/Auto claim index rewards":false,"System / Interface/Quick bars/Keybinds":true,"Steal / Auto Steal/Auto steal/Instant steps":2,"Farm / Fuse/Fuse filter/Never fuse":[],"Farm / Pen/Auto hatch/Mutations":[],"System / Optimizer/Bases/Hide my pets and eggs":true,"Event / Halloween/Monsters/Monster order":"Most tokens","Steal / Auto Steal/Filter/Zones":["Enchanted Forest","Light Dark","Titan Temple","Cherry Blossom"],"Event / Butterfly/Butterfly machine/Auto craft essence":true,"Farm / Mutate/Auto mutate/Auto mutate":false,"Player / ESP/Others/Other pens ESP":true,"Player / ESP/Field eggs/Egg ESP":false,"Farm / Pen/Keep eggs/Min value /s":0,"Steal / Auto Steal/Auto steal/Delivery method":"Instant steps","Farm / Treadmill/Progress/Auto buy trails":false,"Farm / Sell/Eggs/Sell rarities":["Rare","Uncommon","Common"],"System / Interface/Interface/Tone":100,"Event / AA/Admin abuse/Admin treadmill":false,"System / Webhook/What to post/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Farm / Pen/Auto place/Place when":"Always","Event / Halloween/Monsters/Monsters":["Candy Corn","Hollow Bat","Scarecrow","Chest Mimic","Pumpkin Golem","Soul Phantom"],"Event / Butterfly/Wisp companion/Auto banjo cricket":false,"Event / Halloween/Halloween Dimension/Auto buy Halloween Dimension Egg":false,"Event / Halloween/Halloween Dimension/Walk speed":1000,"Steal / Auto Steal/Auto steal/Delivery speed":4500,"Farm / Mutate/Auto mutate/Use items":["Fractured","Scrambled","Enchanted","Nitro","Spectral"],"Farm / Fuse/Fuse machine/Fuse first":"Lowest rarity","Steal / Auto Steal/Auto hop server/Rare from":"Cosmic","Player / Move/Movement/Boost speed":720,"System / Interface/Interface/Opacity":50,"Player / ESP/Others/Guard ESP":true,"Farm / Sell/Favorite/Always favorite":[],"Event / Halloween/Halloween Dimension/Steal speed":100,"Farm / Sell/Eggs/Auto sell eggs":false,"System / Webhook/What to post/Post stolen eggs":false,"Player / ESP/Others/ESP size":60,"Steal / Auto Steal/Filter/Steal first":"Best value","Farm / Sell/Pets/Only below /s":0,"Player / Move/Protection/Anti ragdoll":true,"Player / ESP/Field eggs/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic"],"Player / Move/Protection/Invisible":false,"Steal / Auto Steal/Auto hop server/Hop when":"After stealing a match","Event / AA/Cursed Island Wars/Auto play Cursed Island Wars":true,"Event / Butterfly/Butterfly bloom/Catch":["Radiant","Amethyst","Sapphire","Emerald"],"Farm / Treadmill/Treadmill/Auto treadmill":false,"System / Interface/Game HUD/Steal panel button on game HUD":true,"System / Server/Server/Hop to":"Least players","Farm / Mutate/Mutate filter/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Player / Move/Protection/Instant prompts":true,"System / Server/Join and stay/Rejoin on kick":true,"Farm / Sell/Favorite/Favorite equipped":false,"Event / Halloween/Phantom Express/Auto Phantom Express":true,"System / Optimizer/Frame rate/FPS cap":360,"Steal / Auto Steal/Auto steal/Steal missing index eggs":false,"Steal / Auto Steal/Filter/Only these eggs":["ArchAngel","Kitsune","Nightflame","Royal Skywhale","Unicorn","World Burner","Celestial Sunlion","Gorilla King","Pegasus","Skeleton Horse","Strawberry Elephant","67","Amethyst Runebear","Starry Fox"],"Farm / Sell/Favorite/Min value /s":0,"System / Server/Join and stay/Auto load script":true,"Farm / Mutate/Mutate filter/Skip eggs with":[],"System / Optimizer/Graphics/Low graphics":true,"Event / Halloween/Monsters/Walk speed":1000,"Event / AA/Minigame eggs/Auto steal minigame egg":true,"Farm / Pen/Auto place/Only these eggs":[],"Player / Combat/Auto hit/Hit who":"Nearest player","Farm / Sell/Eggs/Never sell":[],"Farm / Pen/Keep eggs/Eggs to keep":[],"Farm / Fuse/Fuse filter/Only below /s":0,"Event / Halloween/Monsters/Use weapons":["Enchanted Hammer","Racing Bat","Cricket's Banjo","Flyswatter"],"Farm / Fuse/Fuse machine/Skip mutated":true,"Farm / Sell/Pets/Never sell":[],"Farm / Sell/Favorite/Match":"All picked rules","Event / Halloween/Ghost Dog and fishing/Cast luck":"x1.5 Perfect","System / Optimizer/Graphics/Background color":"Black","Player / Move/Movement/God mode":true,"Farm / Pen/Auto place/Mutations":[],"Steal / Auto Steal/Auto steal/Anti guard":true,"Farm / Sell/Favorite/Unfavorite pets not matching":false,"System / Webhook/What to post/Min value /s":0,"Farm / Pen/Auto hatch/Auto hatch":false,"Farm / Sell/Pets/Only mutations":[],"Farm / Fuse/Fuse machine/Eject odd pets":true,"Event / Butterfly/Butterfly machine/Auto trade up":false,"Event / AA/Admin abuse/Instant steal":false,"System / Webhook/What to post/Post when bag is full":false,"Farm / Fuse/Fuse machine/Auto fuse":false,"Farm / Pen/Auto hatch/Only these eggs":[],"Event / Butterfly/Butterfly machine/Smart trade for essence":true,"Event / Halloween/Halloween Dimension/Auto steal Halloween eggs":true,"System / Interface/Quick bars/Bar size":85,"Player / Combat/Weapons/Use weapons":[],"Player / ESP/Others/Player ESP":true,"System / Webhook/Discord webhook/Ping everyone":false,"Farm / Fuse/Fuse machine/Use pets":"Lowest value first","Event / Halloween/Monsters/Auto farm monsters":true,"Farm / Mutate/Auto mutate/Mutate first":"Best value","Player / ESP/Field eggs/Min value /s":0,"Event / AA/Cursed Island Wars/Island Wars target":"Enemies and base","Player / Move/Movement/Infinite jump":true,"Farm / Pen/Auto place/Rarities":["Divine","Eternal","Secret","Cosmic","Mythic","Legendary","Epic","Rare","Uncommon","Common"],"Player / ESP/Field eggs/Mutations":[],"Event / Halloween/Phantom Express/Auto vacuum Ghouler boss":true,"Farm / Treadmill/Progress/Auto upgrade base":false,"Steal / Auto Steal/Auto steal/Auto steal":true,"Player / Combat/Auto hit/Chase speed":1000,"Player / ESP/Field eggs/Fixed size":false,"Event / Halloween/Halloween Dimension/Instant steal Halloween eggs":true,"Event / Halloween/Phantom Express/Walk speed":1000,"Event / Halloween/Phantom Express/Ghost target":"Rarest first","Farm / Sell/Eggs/Only below /s":0,"Farm / Sell/Favorite/Rarities":[],"Steal / Auto Steal/Auto hop server/First hop after":5,"Steal / Auto Steal/Auto steal/Tween speed":110,"Farm / Sell/Pets/Auto sell pets":false,"Event / Halloween/Phantom Express/Auto trade souls":true,"Farm / Sell/Pets/Keep mutated":true,"Steal / Auto Steal/Filter/Sell cheapest egg when bag is full":false,"Player / ESP/Field eggs/Show":[],"Steal / Auto Steal/Auto steal/Go to egg":"Teleport to egg","Player / Combat/Weapons/Hold each":0.2,"Event / AA/Capture the egg/Hold height":120,"Steal / Auto Steal/Filter/Mutations":[],"Event / AA/Capture the egg/Keep away":150,"Farm / Mutate/Mutate filter/Min value /s":0,"Steal / Auto Steal/Auto steal/Teleport zones":["Enchanted Forest","Light Dark","Titan Temple","Cherry Blossom"],"Farm / Pen/Auto hatch/Min value /s":0,"Player / Move/Movement/Speed boost":false,"System / Interface/Interface/UI scale":90,"Farm / Fuse/Fuse filter/Only these pets":[],"Steal / Egg Predictor/Egg showcase/Preview card":false,"Event / Butterfly/Butterfly bloom/Catch speed":600,"Player / Move/Protection/Anti AFK":true,"Event / Halloween/Halloween Dimension/Halloween rarities":[],"System / Interface/Interface/Show / hide UI":{"k":"LeftControl"},"Steal / Auto Steal/Auto steal/Steal from other players":true,"Farm / Pen/Auto place/Min value /s":0,"Event / Butterfly/Butterfly bloom/Catch priority":"Rarest","System / Webhook/Discord webhook/Ping user ID":"","Farm / Sell/Eggs/Only mutations":[],"Farm / Treadmill/Progress/Auto claim offline cash":false,"Farm / Sell/Favorite/Mutations":[],"Event / AA/Capture the egg/Take it from the holder":true,"System / Webhook/Discord webhook/Webhook URL":"","Farm / Priority/Task order/Task order":["Steal filter eggs","Shooting Star","Phantom Express","Pumpkin Moon","Butterfly","Steal wisp eggs","Wisp","Steal missing index","Place","Mutate","Butterfly machine","Ghost Dog quest","Halloween monsters","Halloween fishing","Treadmill"],"Farm / Sell/Eggs/Keep mutated":true,"Event / Butterfly/Wisp companion/Auto wisp quest":false,"System / Optimizer/Graphics/Hide game UI":false}}]=]
 if isfile and delfile then
 pcall(function()
 if isfile(AUTO_FILE) then delfile(AUTO_FILE) end
@@ -140,7 +140,7 @@ local top = d
 while top.Parent and top.Parent ~= ch do top = top.Parent end
 local isBrokenOldRun = false
 for _, subD in ipairs(ch:GetDescendants()) do
-if (subD.Name == "ChilliSenaSquircle" and subD:FindFirstAncestorOfClass("ScrollingFrame")) or subD.Name == "ChilliMainChilliLogo" then
+if (subD.Name == "ChilliSenaSquircle" and subD:FindFirstAncestorOfClass("ScrollingFrame")) or (subD.Name == "ChilliMainChilliLogo" and subD.Parent ~= top) or (subD.Name == "ChilliHeaderBottomGlow" and not ch:FindFirstChild("ChilliSenaSquircle", true)) then
 isBrokenOldRun = true
 break
 end
@@ -163,7 +163,7 @@ local rq = env.__ChilliOrigQueue or env.queue_on_teleport or env.queueonteleport
 if not rq then return end
 env.__ChilliOrigQueue = rq
 local clearQ = env.clearteleportqueue or env.clear_teleport_queue or clearteleportqueue or clear_teleport_queue or (syn and syn.clear_teleport_queue) or (fluxus and fluxus.clear_teleport_queue) or (delta and delta.clear_teleport_queue)
-local boot = '--[[CHILLI_V8_AUTHORIZED_TELEPORT]]'
+local boot = '--[[CHILLI_V8_AUTHORIZED_TELEPORT]]\ntask.spawn(function()\n\tif not game:IsLoaded() then game.Loaded:Wait() end\n\tloadstring(game:HttpGet("https://raw.githubusercontent.com/napun67/stealanegg/refs/heads/main/chillihubv8.lua"))()\nend)'
 local safeLock = function(c)
 pcall(function()
 if tostring(c or ""):find("CHILLI_V8_AUTHORIZED_TELEPORT", 1, true) then
@@ -2431,21 +2431,21 @@ return false
 end
 
 local SIDEBAR_PALETTE = {
-	Color3.fromRGB(0, 195, 255),   -- [1] Trang Chủ: Cyber Cyan
-	Color3.fromRGB(255, 65, 95),   -- [2] Cướp Trứng: Crimson Neon
-	Color3.fromRGB(16, 225, 145),  -- [3] Tự Cày: Emerald Matrix
-	Color3.fromRGB(185, 85, 255),  -- [4] Sự Kiện: Hyper Violet
-	Color3.fromRGB(255, 75, 175),  -- [5] Nhân Vật: Cyber Rose
-	Color3.fromRGB(255, 185, 35),  -- [6] Cài Đặt: Solar Gold
+	Color3.fromRGB(37, 99, 235),  -- [1] Trang Chủ: Xanh Hoàng Gia
+	Color3.fromRGB(239, 68, 68),  -- [2] Cướp Trứng: Đỏ Ruby
+	Color3.fromRGB(245, 158, 11), -- [3] Tự Cày: Vàng Hổ Phách
+	Color3.fromRGB(168, 85, 247), -- [4] Sự Kiện: Tím Thạch Anh
+	Color3.fromRGB(236, 72, 153), -- [5] Nhân Vật: Hồng Ngọc
+	Color3.fromRGB(16, 185, 129), -- [6] Cài Đặt: Xanh Ngọc Lục Bảo
 }
 
 local SIDEBAR_GRAD_PAIRS = {
-	{ Color3.fromRGB(25, 110, 255), Color3.fromRGB(0, 225, 255) },   -- [1] Electric Blue -> Aqua Cyan
-	{ Color3.fromRGB(255, 40, 85),  Color3.fromRGB(255, 145, 30) },  -- [2] Crimson Red -> Fiery Orange
-	{ Color3.fromRGB(10, 195, 120), Color3.fromRGB(95, 255, 145) },  -- [3] Emerald -> Neon Mint
-	{ Color3.fromRGB(135, 55, 255), Color3.fromRGB(235, 85, 255) },  -- [4] Royal Violet -> Neon Fuchsia
-	{ Color3.fromRGB(255, 50, 145), Color3.fromRGB(255, 135, 205) }, -- [5] Hot Pink -> Soft Rose
-	{ Color3.fromRGB(255, 165, 20), Color3.fromRGB(255, 95, 45) },   -- [6] Cyber Gold -> Sunset Orange
+	{ Color3.fromRGB(37, 99, 235), Color3.fromRGB(56, 189, 248) },   -- [1] Royal Blue -> Sky Cyan
+	{ Color3.fromRGB(239, 68, 68), Color3.fromRGB(251, 146, 60) },   -- [2] Ruby Red -> Fiery Coral
+	{ Color3.fromRGB(245, 158, 11), Color3.fromRGB(253, 224, 71) },  -- [3] Amber Gold -> Solar Yellow
+	{ Color3.fromRGB(168, 85, 247), Color3.fromRGB(217, 70, 239) },  -- [4] Amethyst -> Neon Orchid
+	{ Color3.fromRGB(236, 72, 153), Color3.fromRGB(251, 113, 133) }, -- [5] Rose Pink -> Velvet Coral
+	{ Color3.fromRGB(16, 185, 129), Color3.fromRGB(45, 212, 191) },  -- [6] Emerald -> Tiffany Teal
 }
 
 local function playModernTabSound()
@@ -2455,60 +2455,143 @@ local function playModernTabSound()
 		end
 		local ss = game:GetService("SoundService")
 		local snd = Instance.new("Sound")
-		snd.SoundId = "rbxassetid://6895079853"
+		snd.SoundId = "rbxassetid://6026984224"
 		snd.Volume = 0.85
-		snd.PlaybackSpeed = 1.12
+		snd.PlaybackSpeed = 1.15
 		snd.Parent = ss
 		if ss.PlayLocalSound then
 			pcall(function() ss:PlayLocalSound(snd) end)
 		else
 			pcall(function() snd:Play() end)
 		end
-		game:GetService("Debris"):AddItem(snd, 1.5)
+		game:GetService("Debris"):AddItem(snd, 2)
 	end)
+end
+
+local function detectActiveTabIndexFromDom(win, hy, winX)
+	if not win then return nil end
+	for _, d in ipairs(win:GetDescendants()) do
+		if d:IsA("TextLabel") and d.Visible and not d.Name:find("^Chilli") and not d:FindFirstAncestorOfClass("ScrollingFrame") then
+			if (d.TextSize or 14) >= 15 and d.AbsolutePosition.Y > hy + 8 and d.AbsolutePosition.Y < hy + 110 and (d.AbsolutePosition.X - winX) < 260 then
+				local p = d.Parent
+				local allVis = true
+				while p and p ~= win do
+					if p:IsA("GuiObject") and not p.Visible then
+						allVis = false
+						break
+					end
+					p = p.Parent
+				end
+				if allVis then
+					local t = (d.Text or ""):lower()
+					if t:find("bảng điều khiển", 1, true) or t:find("trang chủ", 1, true) or t:find("dashboard", 1, true) or t:find("home", 1, true) then
+						return 1
+					elseif t:find("cướp trứng", 1, true) or t:find("săn trứng", 1, true) or t:find("steal", 1, true) then
+						return 2
+					elseif t:find("tự động cày", 1, true) or t:find("tự cày", 1, true) or t:find("cày", 1, true) or t:find("farm", 1, true) then
+						return 3
+					elseif t:find("sự kiện", 1, true) or t:find("event", 1, true) then
+						return 4
+					elseif t:find("người chơi", 1, true) or t:find("nhân vật", 1, true) or t:find("player", 1, true) then
+						return 5
+					elseif t:find("cài đặt", 1, true) or t:find("hệ thống", 1, true) or t:find("setting", 1, true) or t:find("system", 1, true) then
+						return 6
+					end
+				end
+			end
+		end
+	end
+	return nil
 end
 
 local function applySenaV7Architecture(win, titleLbl)
 	if not win or not titleLbl then return end
 
-	-- Xoá mọi logo phụ gắn trên Header nếu có (chỉ dùng duy nhất 1 nút nổi bên ngoài!)
+	-- Xoá sạch toàn bộ các thanh ngang dọc cầu vồng dài/nhỏ & viền gradient gây rối mắt và gây lag
 	for _, oldL in ipairs(win:GetDescendants()) do
-		if oldL.Name == "ChilliMainChilliLogo" or oldL.Name == "ChilliHeaderLogo" or oldL.Name == "ChilliCosmicHolder" or oldL.Name == "ChilliSenaBottomBar" then
+		local nm = oldL.Name
+		if nm == "ChilliCosmicHolder"
+		   or nm == "ChilliSenaBottomBar"
+		   or nm == "ChilliHeaderBottomGlow"
+		   or nm == "ChilliSidebarRightGlow"
+		   or nm == "ChilliTabActiveBar"
+		   or nm == "ChilliLuxuryCardStroke"
+		   or nm == "ChilliControlNeonGrad"
+		   or nm == "ChilliInnerUltraGrad"
+		   or nm == "ChilliTabToast"
+		   or nm == "ChilliTabRipple" then
+			oldL:Destroy()
+		elseif nm == "ChilliMainChilliLogo" and oldL.Parent ~= win then
 			oldL:Destroy()
 		end
 	end
 
-	-- Phủ màu ULTRA trực tiếp lên chữ "Chilli Hub V8" trên Header
+	-- Tiêu đề "Chilli Hub V8" trên Header gọn đẹp, không dùng gradient nặng
+	local oldTGrad = titleLbl:FindFirstChild("TitleUltraGrad")
+	if oldTGrad then oldTGrad:Destroy() end
 	titleLbl.TextColor3 = Color3.new(1, 1, 1)
 	titleLbl.Font = Enum.Font.GothamBlack
 	titleLbl.TextTransparency = 0
-	if not titleLbl:FindFirstChild("TitleUltraGrad") then
-		local origGrad = mk("UIGradient", { Name = "TitleUltraGrad", Color = ULTRA_TEXT_GRAD }, titleLbl)
-		table.insert(State.ActiveGradients, origGrad)
-	end
 	if not titleLbl:FindFirstChild("TitleUltraStroke") then
-		mk("UIStroke", { Name = "TitleUltraStroke", Thickness = 1.2, Color = Color3.fromRGB(12, 8, 22), Transparency = 0.2 }, titleLbl)
+		mk("UIStroke", { Name = "TitleUltraStroke", Thickness = 1.2, Color = Color3.fromRGB(10, 8, 20), Transparency = 0.2 }, titleLbl)
 	end
 
-	-- Tuyệt đối KHÔNG chạy quét toạ độ khi menu đang đóng hoặc đang hiệu ứng Tween thu phóng!
-	if State.IsBubbleAnimating or not win.Visible or win.AbsoluteSize.X < 340 or win.AbsoluteSize.Y < 220 then
-		if win:GetAttribute("__DeferredArchOnOpen") ~= SID then
-			win:SetAttribute("__DeferredArchOnOpen", SID)
-			win:GetPropertyChangedSignal("Visible"):Connect(function()
-				if win.Visible and not State.IsBubbleAnimating then
-					task.defer(function()
-						pcall(applySenaV7Architecture, win, titleLbl)
-					end)
-				end
-			end)
+	-- Huy hiệu Quả Ớt tròn ở đỉnh cột Sidebar (X = 23, Y = 19) thay thế chữ V gốc
+	local hdrBaseZ = math.max(15, (titleLbl.ZIndex or 5) + 8)
+	local mainChilliLogo = win:FindFirstChild("ChilliMainChilliLogo")
+	if not mainChilliLogo then
+		mainChilliLogo = mk("Frame", {
+			Name = "ChilliMainChilliLogo",
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			Position = UDim2.new(0, 23, 0, 19),
+			Size = UDim2.new(0, 27, 0, 27),
+			BackgroundColor3 = Color3.fromRGB(12, 15, 24),
+			BackgroundTransparency = 0,
+			BorderSizePixel = 0,
+			ClipsDescendants = true,
+			Active = false,
+			ZIndex = hdrBaseZ
+		}, win)
+		mk("UICorner", { CornerRadius = UDim.new(1, 0) }, mainChilliLogo)
+		mk("UIStroke", {
+			Thickness = 1.3,
+			Color = Color3.fromRGB(255, 95, 75),
+			Transparency = 0.25,
+			ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+		}, mainChilliLogo)
+
+		mk("ImageLabel", {
+			Name = "LogoImg",
+			AnchorPoint = Vector2.new(0.5, 0.5),
+			Position = UDim2.fromScale(0.5, 0.5),
+			Size = UDim2.fromScale(0.90, 0.90),
+			BackgroundTransparency = 1,
+			Image = "rbxassetid://74441610995894",
+			ScaleType = Enum.ScaleType.Fit,
+			Active = false,
+			ZIndex = hdrBaseZ + 1
+		}, mainChilliLogo)
+	else
+		local oldMcStroke = mainChilliLogo:FindFirstChildOfClass("UIStroke")
+		if oldMcStroke then
+			local oldMcGrad = oldMcStroke:FindFirstChildOfClass("UIGradient")
+			if oldMcGrad then oldMcGrad:Destroy() end
+			oldMcStroke.Color = Color3.fromRGB(255, 95, 75)
+			oldMcStroke.Thickness = 1.3
+			oldMcStroke.Transparency = 0.25
 		end
-		return
+		mainChilliLogo.AnchorPoint = Vector2.new(0.5, 0.5)
+		mainChilliLogo.Position = UDim2.new(0, 23, 0, 19)
+		mainChilliLogo.Size = UDim2.new(0, 27, 0, 27)
+		mainChilliLogo.Visible = true
+		mainChilliLogo.ZIndex = hdrBaseZ
 	end
+	State.MainChilliLogo = mainChilliLogo
 
 	local hy, tx = titleLbl.AbsolutePosition.Y, titleLbl.AbsolutePosition.X
 	local winX, winY = win.AbsolutePosition.X, win.AbsolutePosition.Y
 
-	-- Tìm chính xác khung nền chính (Real Background Frame) của menu gốc
+	-- Tìm chính xác khung nền chính của menu gốc
 	local bgFrames = {}
 	if win.BackgroundTransparency < 0.98 then
 		table.insert(bgFrames, win)
@@ -2543,21 +2626,23 @@ local function applySenaV7Architecture(win, titleLbl)
 		win.ClipsDescendants = true
 	end)
 
-	-- A. VIỀN KHUNG CHÍNH
+	-- A. VIỀN KHUNG CHÍNH SANG TRỌNG (ĐƠN SẮC TINH TẾ, KHÔNG CẦU VỒNG, SIÊU MƯỢT)
 	local strokeTarget = mainBg or win
 	local winStroke = strokeTarget:FindFirstChild("ChilliProWindowStroke") or win:FindFirstChild("ChilliProWindowStroke")
 	if not winStroke then
 		winStroke = mk("UIStroke", {
 			Name = "ChilliProWindowStroke",
-			Thickness = 2.0,
+			Thickness = 1.4,
 			ApplyStrokeMode = Enum.ApplyStrokeMode.Border,
-			Color = Color3.fromRGB(68, 88, 160),
-			Transparency = 0.22
+			Color = Color3.fromRGB(55, 72, 110),
+			Transparency = 0.20
 		}, strokeTarget)
 	else
-		for _, ch in ipairs(winStroke:GetChildren()) do ch:Destroy() end
-		winStroke.Color = Color3.fromRGB(68, 88, 160)
-		winStroke.Transparency = 0.22
+		local oldWg = winStroke:FindFirstChildOfClass("UIGradient")
+		if oldWg then oldWg:Destroy() end
+		winStroke.Thickness = 1.4
+		winStroke.Color = Color3.fromRGB(55, 72, 110)
+		winStroke.Transparency = 0.20
 	end
 
 	-- B1. HÌNH NỀN VŨ TRỤ MẮT THẦN (90615151648668)
@@ -2571,7 +2656,7 @@ local function applySenaV7Architecture(win, titleLbl)
 			Size = UDim2.fromScale(1, 1),
 			BackgroundTransparency = 1,
 			Image = WALLPAPER_IMAGE_ID,
-			ImageTransparency = 0.38,
+			ImageTransparency = 0.36,
 			ScaleType = Enum.ScaleType.Crop,
 			Active = false,
 			ZIndex = math.max(1, wpParent.ZIndex)
@@ -2581,10 +2666,9 @@ local function applySenaV7Architecture(win, titleLbl)
 		wp.Image = WALLPAPER_IMAGE_ID
 	end
 
-	-- Đảm bảo các khung chứa trang (Page Containers) ở giữa không che khuất hình nền vũ trụ
 	local sectionCards = {}
 	for _, d in ipairs(win:GetDescendants()) do
-		if d:IsA("ScrollingFrame") then
+		if d:IsA("ScrollingFrame") and (d.AbsolutePosition.X - winX) > 35 and (d.AbsoluteSize.X >= win.AbsoluteSize.X * 0.45) then
 			d.BackgroundTransparency = 1
 			local p = d.Parent
 			while p and p ~= win and p ~= mainBg do
@@ -2594,54 +2678,19 @@ local function applySenaV7Architecture(win, titleLbl)
 				p = p.Parent
 			end
 			for _, card in ipairs(d:GetChildren()) do
-				if card:IsA("Frame") then
-					table.insert(sectionCards, card)
-				end
-			end
-		end
-	end
-
-	for _, card in ipairs(sectionCards) do
-		card.BackgroundColor3 = Color3.fromRGB(13, 15, 24)
-		for _, st in ipairs(card:GetChildren()) do
-			if st:IsA("UIStroke") then
-				st.Enabled = false
-				st.Transparency = 1
-				pcall(function() st:Destroy() end)
-			end
-		end
-	end
-	for _, st in ipairs(win:GetDescendants()) do
-		if st:IsA("UIStroke") and st.Name ~= "ChilliProWindowStroke" and st.Parent and st.Parent.Name ~= "ChilliSenaSquircle" and st.Parent.Name ~= "ChilliTabToast" and st.Parent.Name ~= "ChilliUltraBadgePill" then
-			if st.Parent:FindFirstAncestorOfClass("ScrollingFrame") or st.Name == "ChilliCardGrad" then
-				st.Enabled = false
-				st.Transparency = 1
-			end
-		end
-	end
-
-	-- Phủ màu chữ ULTRA cho tiêu đề trang lớn & tiêu đề bảng + thanh trượt / công tắc Neon
-	for _, d in ipairs(win:GetDescendants()) do
-		if (d:IsA("TextLabel") or d:IsA("TextButton")) and not d.Name:find("^Chilli") then
-			local txt = d.Text or ""
-			local isBigPageTitle = ((d.TextSize or 14) >= 15 and d.AbsolutePosition.Y > hy + 10 and d.AbsolutePosition.Y < hy + 105 and (d.AbsolutePosition.X - winX) < 260)
-			local isSectionHeader = (txt:upper() == txt and #txt >= 4 and (d.TextSize or 14) <= 13 and d:FindFirstAncestorOfClass("ScrollingFrame") ~= nil)
-			if isBigPageTitle or isSectionHeader then
-				d.TextColor3 = Color3.new(1, 1, 1)
-				if not d:FindFirstChild("ChilliInnerUltraGrad") then
-					local ig = mk("UIGradient", { Name = "ChilliInnerUltraGrad", Color = ULTRA_TEXT_GRAD }, d)
-					table.insert(State.ActiveGradients, ig)
-				end
-			end
-		elseif d:IsA("Frame") and not d.Name:find("^Chilli") and d:FindFirstAncestorOfClass("ScrollingFrame") then
-			local col = d.BackgroundColor3
-			local sz = d.AbsoluteSize
-			if sz.Y >= 3 and sz.Y <= 26 and sz.X >= 8 and sz.X <= 280 and d.BackgroundTransparency < 0.5 then
-				if (col.B > 0.55 and (col.R > 0.35 or col.G > 0.35)) and not (col.R < 0.18 and col.G < 0.18 and col.B < 0.22) then
-					if not d:FindFirstChild("ChilliControlNeonGrad") then
-						d.BackgroundColor3 = Color3.new(1, 1, 1)
-						mk("UIGradient", { Name = "ChilliControlNeonGrad", Color = ULTRA_CARD_GRAD }, d)
+				if card:IsA("Frame") and card.AbsoluteSize.X >= 120 then
+					card.BackgroundColor3 = Color3.fromRGB(13, 15, 25)
+					for _, st in ipairs(card:GetChildren()) do
+						if st:IsA("UIStroke") then
+							if st.Name == "ChilliLuxuryCardStroke" then
+								st:Destroy()
+							else
+								st.Enabled = true
+								st.Transparency = 0.65
+							end
+						end
 					end
+					table.insert(sectionCards, card)
 				end
 			end
 		end
@@ -2657,7 +2706,7 @@ local function applySenaV7Architecture(win, titleLbl)
 			end
 		end
 		wp.ImageTransparency = math.clamp(0.16 + curT * 0.78, 0.16, 0.94)
-		local cardT = math.clamp(0.26 + curT * 0.58, 0.24, 0.88)
+		local cardT = math.clamp(0.24 + curT * 0.58, 0.22, 0.88)
 		for _, card in ipairs(sectionCards) do
 			if card and card.Parent then
 				card.BackgroundTransparency = cardT
@@ -2672,7 +2721,7 @@ local function applySenaV7Architecture(win, titleLbl)
 	end
 	syncWallpaperAndOldBg()
 
-	-- B2. XOÁ CHỈ RIÊNG CHỮ / ICON Vx TRONG Ô 44x36 GÓC TRÊN TRÁI CỦA HEADER (TUYỆT ĐỐI KHÔNG ẨN FRAME SIDEBAR)
+	-- B2. ẨN CHỮ / ICON Vx TRONG Ô 44x36 GÓC TRÊN TRÁI (KHÔNG ĐỤNG TỚI FRAME SIDEBAR)
 	local headerBar = nil
 	local curr = titleLbl
 	while curr and curr ~= win do
@@ -2690,6 +2739,7 @@ local function applySenaV7Architecture(win, titleLbl)
 		if (it:IsA("TextLabel") or it:IsA("TextButton") or it:IsA("ImageLabel") or it:IsA("ImageButton"))
 		   and it ~= titleLbl
 		   and not it.Name:find("^Chilli")
+		   and not it:IsDescendantOf(mainChilliLogo)
 		   and not it:FindFirstAncestorOfClass("ScrollingFrame") then
 			local p, s = it.AbsolutePosition, it.AbsoluteSize
 			if s.X > 0 and s.X <= 42 and s.Y > 0 and s.Y <= 36
@@ -2705,9 +2755,9 @@ local function applySenaV7Architecture(win, titleLbl)
 		end
 	end
 
-	-- Khôi phục hoàn toàn các nút trong ScrollingFrame (Trang Chủ: Vào lại, Đổi máy chủ...) nếu phiên trước bị gắn nhầm
+	-- Dọn sạch mọi squircle nếu bị gắn nhầm vào trong trang nội dung bên phải
 	for _, sc in ipairs(win:GetDescendants()) do
-		if sc:IsA("ScrollingFrame") then
+		if sc:IsA("ScrollingFrame") and (sc.AbsolutePosition.X - winX) > 65 and sc.AbsoluteSize.X >= win.AbsoluteSize.X * 0.45 then
 			for _, sub in ipairs(sc:GetDescendants()) do
 				if sub.Name == "ChilliSenaSquircle" or sub.Name == "ChilliStealTabIcon" or sub.Name == "ChilliSidebarNeonLine" or sub.Name == "ChilliTabRipple" then
 					local par = sub.Parent
@@ -2720,7 +2770,7 @@ local function applySenaV7Architecture(win, titleLbl)
 		end
 	end
 
-	-- C. ĐỒNG BỘ HIỂN THỊ MENU CHILLI HUB V8
+	-- C. ĐỒNG BỘ HIỂN THỊ MENU CHILLI HUB V8 (SIÊU NHẸ, KHÔNG QUÉT LẠI DOM)
 	local function syncWindowVisibilityInstant()
 		if not win or not win.Parent or State.IsBubbleAnimating then return end
 		local isOffscreen = (win.AbsolutePosition.X < -500 or win.AbsolutePosition.Y < -500)
@@ -2734,9 +2784,10 @@ local function applySenaV7Architecture(win, titleLbl)
 
 		if winStroke then
 			winStroke.Enabled = isOpen
-			winStroke.Transparency = isOpen and 0.18 or 1
+			winStroke.Transparency = isOpen and 0.20 or 1
 		end
 		if wp then wp.Visible = isOpen end
+		if mainChilliLogo then mainChilliLogo.Visible = isOpen end
 	end
 
 	State.SyncWindowFn = syncWindowVisibilityInstant
@@ -2744,14 +2795,7 @@ local function applySenaV7Architecture(win, titleLbl)
 
 	if win:GetAttribute("__InstantHideHooked") ~= SID then
 		win:SetAttribute("__InstantHideHooked", SID)
-		win:GetPropertyChangedSignal("Visible"):Connect(function()
-			syncWindowVisibilityInstant()
-			if win.Visible and not State.IsBubbleAnimating then
-				task.defer(function()
-					pcall(applySenaV7Architecture, win, titleLbl)
-				end)
-			end
-		end)
+		win:GetPropertyChangedSignal("Visible"):Connect(syncWindowVisibilityInstant)
 		win:GetPropertyChangedSignal("Size"):Connect(syncWindowVisibilityInstant)
 		win:GetPropertyChangedSignal("Position"):Connect(syncWindowVisibilityInstant)
 		if mainBg and mainBg ~= win then
@@ -2781,171 +2825,110 @@ local function applySenaV7Architecture(win, titleLbl)
 		end
 	end
 
-	-- D. THANH TAB DỌC BÊN TRÁI (SIDEBAR) HIỆN ĐẠI + HIỆU ỨNG ÂM THANH CLICK
-	-- Chỉ tìm đúng cột nút Tab dọc ở mép trái của win (không nằm trong ScrollingFrame, X cách mép trái < 55px, xếp dọc từ trên xuống)
+	-- D. CỤM 6 NÚT TAB DỌC BÊN TRÁI: CHỈ NÚT ĐANG ĐƯỢC BẤM MỚI HIỆN MÀU, BÌNH THƯỜNG KHÔNG MÀU (TRONG SUỐT)
 	local navButtons = {}
-	local navContainer = nil
 	for _, d in ipairs(win:GetDescendants()) do
-		if d:IsA("GuiObject")
-		   and not d:IsA("ScrollingFrame")
-		   and not d:FindFirstAncestorOfClass("ScrollingFrame")
-		   and not d.Name:find("^Chilli")
-		   and (d.AbsolutePosition.X - winX) < 58 then
+		if d:IsA("GuiObject") and not d.Name:find("^Chilli") and (d.AbsolutePosition.X - winX) < 75 and d.AbsolutePosition.Y > hy + 12 and d.AbsoluteSize.X <= 95 then
 			local children = {}
 			for _, ch in ipairs(d:GetChildren()) do
-				if ch:IsA("GuiObject") and not ch.Name:find("^Chilli") and ch.Visible then
-					local cw, chH = ch.AbsoluteSize.X, ch.AbsoluteSize.Y
-					local chRelX = ch.AbsolutePosition.X - winX
-					if chRelX >= -2 and chRelX < 55 and cw >= 18 and cw <= 62 and chH >= 18 and chH <= 62 then
-						table.insert(children, ch)
-					end
+				if ch:IsA("GuiObject") and not ch.Name:find("^Chilli") and ch.AbsoluteSize.X >= 20 and ch.AbsoluteSize.X <= 70 and ch.AbsoluteSize.Y >= 20 and ch.AbsoluteSize.Y <= 70 then
+					ch.Visible = true
+					local oldCardStroke = ch:FindFirstChild("ChilliLuxuryCardStroke")
+					if oldCardStroke then oldCardStroke:Destroy() end
+					table.insert(children, ch)
 				end
 			end
 			if #children >= 5 and #children <= 8 then
 				table.sort(children, function(a, b) return a.AbsolutePosition.Y < b.AbsolutePosition.Y end)
-				local spanY = children[#children].AbsolutePosition.Y - children[1].AbsolutePosition.Y
-				local spanX = math.abs(children[#children].AbsolutePosition.X - children[1].AbsolutePosition.X)
-				if spanY > 90 and spanX < 20 then
-					navButtons = children
-					navContainer = d
-					break
+				pcall(function() d.BackgroundTransparency = 1 end)
+				if d.ZIndex < 15 then d.ZIndex = 15 end
+				for _, nb in ipairs(children) do
+					pcall(function() nb.BackgroundTransparency = 1 end)
+					if nb.ZIndex < 16 then nb.ZIndex = 16 end
 				end
+				navButtons = children
+				break
 			end
 		end
 	end
 
 	if #navButtons >= 5 then
 		State.SystemTabBtn = navButtons[6] or navButtons[#navButtons]
+		State.CurrentNavButtons = navButtons
 
-		if navContainer and navContainer:IsA("GuiObject") then
-			navContainer.Visible = true
+		local detectedTabIdx = detectActiveTabIndexFromDom(win, hy, winX)
+		if detectedTabIdx then
+			State.ActiveSidebarTabIdx = detectedTabIdx
+		elseif not State.ActiveSidebarTabIdx then
+			State.ActiveSidebarTabIdx = 1
 		end
+
+		local fastTabTween = TweenInfo.new(0.14, Enum.EasingStyle.Quart, Enum.EasingDirection.Out)
 
 		local function updateTabActiveStyles(activeIdx)
 			State.ActiveSidebarTabIdx = activeIdx
-			for i, b in ipairs(navButtons) do
-				local sq = b:FindFirstChild("ChilliSenaSquircle")
+			local btns = State.CurrentNavButtons or navButtons
+			for i, b in ipairs(btns) do
+				local sq = b and b:FindFirstChild("ChilliSenaSquircle")
 				if sq then
 					local st = sq:FindFirstChild("SquircleStroke") or sq:FindFirstChildOfClass("UIStroke")
-					local actBar = sq:FindFirstChild("ChilliTabActiveBar")
 					local shine = sq:FindFirstChild("ChilliTabGlassShine")
-					local bColor = SIDEBAR_PALETTE[((i - 1) % #SIDEBAR_PALETTE) + 1]
+					local oldBar = sq:FindFirstChild("ChilliTabActiveBar")
+					if oldBar then oldBar:Destroy() end
+
 					if i == activeIdx then
-						TweenService:Create(sq, TweenInfo.new(0.20, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-							Size = UDim2.new(0, 34, 0, 34),
-							BackgroundColor3 = Color3.new(1, 1, 1),
-							BackgroundTransparency = 0.04
+						-- Nút đang được bấm chọn: Hiện màu rực rỡ + viền sáng mảnh
+						TweenService:Create(sq, fastTabTween, {
+							Size = UDim2.new(0, 32, 0, 32),
+							BackgroundTransparency = 0.06
 						}):Play()
 						if st then
-							TweenService:Create(st, TweenInfo.new(0.20, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-								Thickness = 1.8,
-								Color = Color3.new(1, 1, 1),
-								Transparency = 0.05
-							}):Play()
-						end
-						if actBar then
-							TweenService:Create(actBar, TweenInfo.new(0.20, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-								Size = UDim2.new(0, 3, 0, 18),
-								BackgroundTransparency = 0,
-								BackgroundColor3 = Color3.new(1, 1, 1)
+							st.Color = Color3.fromRGB(255, 255, 255)
+							st.Thickness = 1.4
+							TweenService:Create(st, fastTabTween, {
+								Transparency = 0.18
 							}):Play()
 						end
 						if shine then
-							shine.BackgroundTransparency = 0.74
+							shine.Visible = true
+							shine.BackgroundTransparency = 0.78
 						end
 					else
-						TweenService:Create(sq, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-							Size = UDim2.new(0, 29, 0, 29),
-							BackgroundColor3 = Color3.new(1, 1, 1),
-							BackgroundTransparency = 0.36
+						-- Nút bình thường (chưa bấm): Hoàn toàn KHÔNG MÀU (BackgroundTransparency = 1)
+						TweenService:Create(sq, fastTabTween, {
+							Size = UDim2.new(0, 30, 0, 30),
+							BackgroundTransparency = 1
 						}):Play()
 						if st then
-							TweenService:Create(st, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-								Thickness = 1.1,
-								Color = bColor,
-								Transparency = 0.28
-							}):Play()
-						end
-						if actBar then
-							TweenService:Create(actBar, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-								Size = UDim2.new(0, 3, 0, 6),
-								BackgroundTransparency = 1
+							TweenService:Create(st, fastTabTween, {
+								Transparency = 1
 							}):Play()
 						end
 						if shine then
-							shine.BackgroundTransparency = 0.86
+							shine.Visible = false
+							shine.BackgroundTransparency = 1
 						end
 					end
 				end
 			end
 		end
-
-		local TAB_NAMES = {
-			[1] = { title = "BẢNG ĐIỀU KHIỂN", icon = "🏠", sub = "HOME DASHBOARD" },
-			[2] = { title = "CƯỚP TRỨNG", icon = "🥚", sub = "AUTO STEAL & SNIPER" },
-			[3] = { title = "CÀY CUỐC & PET", icon = "🌱", sub = "AUTO FARM & PETS" },
-			[4] = { title = "SỰ KIỆN", icon = "✨", sub = "HALLOWEEN & EVENTS" },
-			[5] = { title = "NGƯỜI CHƠI", icon = "👤", sub = "PLAYER & ESP" },
-			[6] = { title = "CÀI ĐẶT", icon = "⚙️", sub = "SYSTEM & CONFIG" },
-		}
-
-		local function showTabToast(idx, badgeColor)
-			pcall(updateTabActiveStyles, idx)
-			local tabInfo = TAB_NAMES[idx] or { title = "TAB " .. tostring(idx), icon = "⚡", sub = "CHILLI HUB V8" }
-			local oldToast = win:FindFirstChild("ChilliTabToast")
-			if oldToast then oldToast:Destroy() end
-
-			local toast = mk("Frame", {
-				Name = "ChilliTabToast",
-				AnchorPoint = Vector2.new(0.5, 0),
-				Position = UDim2.new(0.5, 20, 0, -32),
-				Size = UDim2.new(0, 248, 0, 28),
-				BackgroundColor3 = Color3.fromRGB(14, 16, 26),
-				BackgroundTransparency = 0.08,
-				BorderSizePixel = 0,
-				ClipsDescendants = true,
-				Active = false,
-				ZIndex = (win.ZIndex or 2) + 25
-			}, win)
-			mk("UICorner", { CornerRadius = UDim.new(1, 0) }, toast)
-			local tStroke = mk("UIStroke", { Thickness = 1.4, Color = badgeColor, ApplyStrokeMode = Enum.ApplyStrokeMode.Border }, toast)
-			table.insert(State.ActiveGradients, mk("UIGradient", { Color = RAINBOW }, tStroke))
-
-			local tLbl = mk("TextLabel", {
-				Size = UDim2.new(1, 0, 1, 0),
-				BackgroundTransparency = 1,
-				Font = Enum.Font.GothamBlack,
-				TextSize = 11,
-				TextColor3 = Color3.new(1, 1, 1),
-				Text = tabInfo.icon .. "  " .. tabInfo.title .. "  •  " .. tabInfo.sub,
-				Active = false,
-				ZIndex = toast.ZIndex + 1
-			}, toast)
-			local tGrad = mk("UIGradient", { Color = ULTRA_TEXT_GRAD }, tLbl)
-			table.insert(State.ActiveGradients, tGrad)
-
-			TweenService:Create(toast, TweenInfo.new(0.20, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-				Position = UDim2.new(0.5, 20, 0, 7)
-			}):Play()
-
-			task.delay(1.15, function()
-				if toast and toast.Parent then
-					local outTween = TweenService:Create(toast, TweenInfo.new(0.20, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
-						Position = UDim2.new(0.5, 20, 0, -32),
-						BackgroundTransparency = 1
-					})
-					TweenService:Create(tLbl, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.In), { TextTransparency = 1 }):Play()
-					TweenService:Create(tStroke, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.In), { Transparency = 1 }):Play()
-					outTween:Play()
-					outTween.Completed:Connect(function() toast:Destroy() end)
-				end
-			end)
-		end
+		State.UpdateSidebarTabStyles = updateTabActiveStyles
 
 		for idx, btn in ipairs(navButtons) do
 			btn.Visible = true
+			pcall(function() btn.BackgroundTransparency = 1 end)
+			if btn:GetAttribute("__BgLockHooked") ~= SID then
+				btn:SetAttribute("__BgLockHooked", SID)
+				btn:GetPropertyChangedSignal("BackgroundTransparency"):Connect(function()
+					if btn.BackgroundTransparency < 1 then
+						btn.BackgroundTransparency = 1
+					end
+				end)
+			end
+			if btn.ZIndex < 16 then btn.ZIndex = 16 end
 			local badgeColor = SIDEBAR_PALETTE[((idx - 1) % #SIDEBAR_PALETTE) + 1]
 			local gradPair = SIDEBAR_GRAD_PAIRS[((idx - 1) % #SIDEBAR_GRAD_PAIRS) + 1]
+			local isInitActive = (idx == (State.ActiveSidebarTabIdx or 1))
 
 			local squircle = btn:FindFirstChild("ChilliSenaSquircle")
 			if not squircle then
@@ -2953,14 +2936,14 @@ local function applySenaV7Architecture(win, titleLbl)
 					Name = "ChilliSenaSquircle",
 					AnchorPoint = Vector2.new(0.5, 0.5),
 					Position = UDim2.fromScale(0.5, 0.5),
-					Size = UDim2.new(0, 30, 0, 30),
+					Size = isInitActive and UDim2.new(0, 32, 0, 32) or UDim2.new(0, 30, 0, 30),
 					BackgroundColor3 = Color3.new(1, 1, 1),
-					BackgroundTransparency = 0.25,
+					BackgroundTransparency = isInitActive and 0.06 or 1,
 					BorderSizePixel = 0,
 					Active = false,
-					ZIndex = math.max(2, btn.ZIndex + 1)
+					ZIndex = btn.ZIndex + 1
 				}, btn)
-				mk("UICorner", { CornerRadius = UDim.new(0, 9) }, squircle)
+				mk("UICorner", { CornerRadius = UDim.new(0, 8) }, squircle)
 				mk("UIGradient", {
 					Name = "SquircleGrad",
 					Rotation = 45,
@@ -2971,9 +2954,9 @@ local function applySenaV7Architecture(win, titleLbl)
 				}, squircle)
 				mk("UIStroke", {
 					Name = "SquircleStroke",
-					Thickness = 1.3,
-					Color = badgeColor,
-					Transparency = 0.22,
+					Thickness = 1.4,
+					Color = Color3.fromRGB(255, 255, 255),
+					Transparency = isInitActive and 0.18 or 1,
 					ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 				}, squircle)
 
@@ -2981,41 +2964,37 @@ local function applySenaV7Architecture(win, titleLbl)
 					Name = "ChilliTabGlassShine",
 					AnchorPoint = Vector2.new(0.5, 0),
 					Position = UDim2.new(0.5, 0, 0, 1),
-					Size = UDim2.new(0.84, 0, 0.42, 0),
+					Size = UDim2.new(0.86, 0, 0.42, 0),
 					BackgroundColor3 = Color3.new(1, 1, 1),
-					BackgroundTransparency = 0.80,
+					BackgroundTransparency = isInitActive and 0.78 or 1,
+					Visible = isInitActive,
 					BorderSizePixel = 0,
 					Active = false,
 					ZIndex = squircle.ZIndex + 1
 				}, squircle)
 				mk("UICorner", { CornerRadius = UDim.new(0, 7) }, glassShine)
-
-				local activeBar = mk("Frame", {
-					Name = "ChilliTabActiveBar",
-					AnchorPoint = Vector2.new(0, 0.5),
-					Position = UDim2.new(0, -4, 0.5, 0),
-					Size = UDim2.new(0, 3, 0, 16),
-					BackgroundColor3 = badgeColor,
-					BackgroundTransparency = 1,
-					BorderSizePixel = 0,
-					Active = false,
-					ZIndex = squircle.ZIndex + 3
-				}, squircle)
-				mk("UICorner", { CornerRadius = UDim.new(1, 0) }, activeBar)
+			else
+				squircle.Visible = true
+				squircle.ZIndex = btn.ZIndex + 1
+				local oldBar = squircle:FindFirstChild("ChilliTabActiveBar")
+				if oldBar then oldBar:Destroy() end
 			end
 
 			for _, ch in ipairs(btn:GetDescendants()) do
 				if ch ~= squircle and not ch:IsDescendantOf(squircle) and ch.Name ~= "ChilliStealTabIcon" then
-					if ch:IsA("ImageLabel") or ch:IsA("ImageButton") then
-						ch.Visible = true
+					if ch:IsA("GuiObject") then
 						ch.ZIndex = squircle.ZIndex + 4
+					end
+					if ch:IsA("Frame") and ch.AbsoluteSize.X >= 20 and ch.AbsoluteSize.Y >= 20 then
+						ch.BackgroundTransparency = 1
+					elseif ch:IsA("ImageLabel") or ch:IsA("ImageButton") then
+						ch.Visible = true
 						ch.ImageColor3 = Color3.new(1, 1, 1)
 						if idx ~= 2 then
 							ch.ImageTransparency = 0
 						end
 					elseif ch:IsA("TextLabel") or ch:IsA("TextButton") then
 						ch.Visible = true
-						ch.ZIndex = squircle.ZIndex + 4
 						ch.TextColor3 = Color3.new(1, 1, 1)
 						if idx ~= 2 then
 							ch.TextTransparency = 0
@@ -3029,6 +3008,13 @@ local function applySenaV7Architecture(win, titleLbl)
 					if desc ~= squircle and not desc:IsDescendantOf(squircle) and desc.Name ~= "ChilliStealTabIcon" and not desc:IsA("UICorner") and not desc:IsA("UIStroke") then
 						if desc:IsA("ImageLabel") or desc:IsA("ImageButton") then
 							desc.ImageTransparency = 1
+						elseif desc:IsA("TextLabel") or desc:IsA("TextButton") then
+							desc:SetAttribute("__HiddenVxLogo", true)
+							desc.TextTransparency = 1
+						elseif desc:IsA("Frame") then
+							desc.BackgroundTransparency = 1
+							local st = desc:FindFirstChildOfClass("UIStroke")
+							if st then st.Transparency = 1 end
 						end
 					end
 				end
@@ -3038,7 +3024,7 @@ local function applySenaV7Architecture(win, titleLbl)
 						Name = "ChilliStealTabIcon",
 						AnchorPoint = Vector2.new(0.5, 0.5),
 						Position = UDim2.fromScale(0.5, 0.5),
-						Size = UDim2.fromScale(0.80, 0.80),
+						Size = UDim2.fromScale(0.84, 0.84),
 						BackgroundTransparency = 1,
 						Image = STEAL_TAB_ICON_ID,
 						ScaleType = Enum.ScaleType.Fit,
@@ -3051,77 +3037,75 @@ local function applySenaV7Architecture(win, titleLbl)
 					stealIcon.Visible = true
 					stealIcon.Image = STEAL_TAB_ICON_ID
 					stealIcon.ImageTransparency = 0
-					stealIcon.Size = UDim2.fromScale(0.80, 0.80)
+					stealIcon.Size = UDim2.fromScale(0.84, 0.84)
 					stealIcon.ZIndex = squircle.ZIndex + 5
 				end
 			end
 
-			if not btn:GetAttribute("__TabEffectHooked") then
-				btn:SetAttribute("__TabEffectHooked", true)
-				local function onTabTriggered()
+			if btn:GetAttribute("__TabEffectHooked") ~= SID then
+				btn:SetAttribute("__TabEffectHooked", SID)
+				local function triggerThisTab()
 					local now = os.clock()
-					if now - (State.LastTabClickTime or 0) < 0.12 then return end
+					if now - (State.LastTabClickTime or 0) < 0.08 then return end
 					State.LastTabClickTime = now
-
 					playModernTabSound()
-					pcall(updateTabActiveStyles, idx)
-
-					TweenService:Create(squircle, TweenInfo.new(0.07, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
-						Size = UDim2.new(0, 26, 0, 26)
-					}):Play()
-					task.delay(0.07, function()
-						TweenService:Create(squircle, TweenInfo.new(0.16, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-							Size = UDim2.new(0, 34, 0, 34)
-						}):Play()
-					end)
-
-					local ripple = mk("Frame", {
-						Name = "ChilliTabRipple",
-						AnchorPoint = Vector2.new(0.5, 0.5),
-						Position = UDim2.fromScale(0.5, 0.5),
-						Size = UDim2.new(0, 24, 0, 24),
-						BackgroundColor3 = badgeColor,
-						BackgroundTransparency = 0.18,
-						BorderSizePixel = 0,
-						Active = false,
-						ZIndex = squircle.ZIndex - 1
-					}, btn)
-					mk("UICorner", { CornerRadius = UDim.new(1, 0) }, ripple)
-					local ripStroke = mk("UIStroke", { Thickness = 1.8, Color = Color3.new(1, 1, 1), Transparency = 0.15 }, ripple)
-
-					local rTween = TweenService:Create(ripple, TweenInfo.new(0.32, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-						Size = UDim2.new(0, 48, 0, 48),
-						BackgroundTransparency = 1
-					})
-					TweenService:Create(ripStroke, TweenInfo.new(0.32, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), { Transparency = 1 }):Play()
-					rTween:Play()
-					rTween.Completed:Connect(function() ripple:Destroy() end)
-
-					showTabToast(idx, badgeColor)
+					if State.UpdateSidebarTabStyles then
+						pcall(State.UpdateSidebarTabStyles, idx)
+					end
 				end
 
 				local hookTargets = { btn }
 				for _, desc in ipairs(btn:GetDescendants()) do
-					if desc:IsA("GuiButton") then
+					if desc:IsA("GuiObject") and not desc.Name:find("^Chilli") then
 						table.insert(hookTargets, desc)
 					end
 				end
 				for _, hObj in ipairs(hookTargets) do
 					if hObj:IsA("GuiButton") then
-						hObj.Activated:Connect(onTabTriggered)
-						hObj.MouseButton1Click:Connect(onTabTriggered)
-						hObj.MouseButton1Down:Connect(onTabTriggered)
+						hObj.Activated:Connect(triggerThisTab)
+						hObj.MouseButton1Click:Connect(triggerThisTab)
+						hObj.MouseButton1Down:Connect(triggerThisTab)
 					end
-					hObj.InputBegan:Connect(function(inp)
-						if inp.UserInputType == Enum.UserInputType.MouseButton1 or inp.UserInputType == Enum.UserInputType.Touch then
-							onTabTriggered()
-						end
-					end)
 				end
 			end
 		end
+
+		-- Bắt sự kiện chạm/click trực tiếp theo tọa độ 6 nút Tab (đảm bảo 100% bấm nút nào nút đó hiện màu ngay lập tức kể cả khi nút là Frame)
+		if win:GetAttribute("__SidebarGlobalInputHooked") ~= SID then
+			win:SetAttribute("__SidebarGlobalInputHooked", SID)
+			if env.__ChilliSidebarInputConn then
+				pcall(function() env.__ChilliSidebarInputConn:Disconnect() end)
+			end
+			env.__ChilliSidebarInputConn = UserInputService.InputBegan:Connect(function(inp)
+				if not isAlive() or not win or not win.Parent or not win.Visible then return end
+				if inp.UserInputType == Enum.UserInputType.MouseButton1 or inp.UserInputType == Enum.UserInputType.Touch then
+					local pos = inp.Position
+					local btns = State.CurrentNavButtons
+					if btns then
+						for idx, b in ipairs(btns) do
+							if b and b.Parent and b.Visible then
+								local bp, bs = b.AbsolutePosition, b.AbsoluteSize
+								if pos.X >= bp.X - 4 and pos.X <= bp.X + bs.X + 4 and pos.Y >= bp.Y - 3 and pos.Y <= bp.Y + bs.Y + 3 then
+									local now = os.clock()
+									if now - (State.LastTabClickTime or 0) >= 0.08 then
+										State.LastTabClickTime = now
+										playModernTabSound()
+										if State.UpdateSidebarTabStyles then
+											pcall(State.UpdateSidebarTabStyles, idx)
+										end
+									end
+									break
+								end
+							end
+						end
+					end
+				end
+			end)
+		end
+
 		pcall(updateTabActiveStyles, State.ActiveSidebarTabIdx or 1)
 	end
+	win:SetAttribute("__SenaArchApplied", SID)
 end
 
 -- 9. BỘ QUÉT SỰ KIỆN ZERO-LAG
@@ -3129,14 +3113,19 @@ local venyxGuiLocked = nil
 
 -- ============================================================================
 -- [1 NÚT NỔI DUY NHẤT: ĐÓNG MENU = BONG BÓNG (91322208361913) | BẤM MỞ MENU = AVATAR ỚT (74441610995894)]
+-- CƠ CHẾ CHỐNG LAG ZERO-DELAY: DÙNG UIScale MỞ/ĐÓNG 0.16s, KHÔNG QUÉT LẠI DOM, KHÔNG CHẠY HEARTBEAT
 -- ============================================================================
 local function setupBubbleToggle(gui, win, titleLbl)
 	if not gui or not win then return end
 	if win:GetAttribute("__ChilliBubbleHooked") == SID then return end
 	win:SetAttribute("__ChilliBubbleHooked", SID)
 
+	if env.__ChilliBubbleHeartbeatConn then
+		pcall(function() env.__ChilliBubbleHeartbeatConn:Disconnect() end)
+		env.__ChilliBubbleHeartbeatConn = nil
+	end
+
 	local TweenSvc = game:GetService("TweenService")
-	local RunSvc = game:GetService("RunService")
 	local UserInputSvc = game:GetService("UserInputService")
 	State.IsBubbleAnimating = false
 
@@ -3199,19 +3188,11 @@ local function setupBubbleToggle(gui, win, titleLbl)
 
 		local bStroke = Instance.new("UIStroke")
 		bStroke.Name = "BubbleStroke"
-		bStroke.Thickness = 2.2
-		bStroke.Color = Color3.fromRGB(255, 255, 255)
+		bStroke.Thickness = 2.0
+		bStroke.Color = Color3.fromRGB(110, 215, 255)
+		bStroke.Transparency = 0.15
 		bStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 		bStroke.Parent = container
-
-		local bStrokeGrad = Instance.new("UIGradient")
-		bStrokeGrad.Color = ColorSequence.new({
-			ColorSequenceKeypoint.new(0.00, Color3.fromRGB(100, 220, 255)),
-			ColorSequenceKeypoint.new(0.35, Color3.fromRGB(255, 110, 85)),
-			ColorSequenceKeypoint.new(0.70, Color3.fromRGB(120, 255, 180)),
-			ColorSequenceKeypoint.new(1.00, Color3.fromRGB(100, 220, 255)),
-		})
-		bStrokeGrad.Parent = bStroke
 
 		-- [LỚP DƯỚI - AVATAR ỚT]: Hiện ra khi bấm mở Menu (rbxassetid://74441610995894)
 		local pepperLogo = Instance.new("ImageLabel")
@@ -3276,24 +3257,23 @@ local function setupBubbleToggle(gui, win, titleLbl)
 		local lCorner = Instance.new("UICorner")
 		lCorner.CornerRadius = UDim.new(1, 0)
 		lCorner.Parent = centerLogo
-
-		local rotAngle = 0
-		RunSvc.Heartbeat:Connect(function(dt)
-			if bubble and bubble.Parent and bubble.Visible then
-				rotAngle = (rotAngle + dt * 45) % 360
-				bStrokeGrad.Rotation = rotAngle
-			end
-		end)
 	end
 
 	local container = bubble:FindFirstChild("ChilliBubbleContainer")
+	if container then
+		local bSt = container:FindFirstChild("BubbleStroke")
+		if bSt then
+			local oldG = bSt:FindFirstChildOfClass("UIGradient")
+			if oldG then oldG:Destroy() end
+			bSt.Color = Color3.fromRGB(110, 215, 255)
+			bSt.Thickness = 2.0
+			bSt.Transparency = 0.15
+		end
+	end
 	local bubbleFrontDisc = container and container:FindFirstChild("BubbleFrontDisc")
 	local shimmerImg = bubbleFrontDisc and bubbleFrontDisc:FindFirstChild("ShimmerGlow")
 	local centerLogo = bubbleFrontDisc and bubbleFrontDisc:FindFirstChild("BubbleLogo")
 
-	-- Chuyển đổi trực tiếp trên 1 nút duy nhất:
-	-- + isMenuOpen = true (Bấm mở menu) -> Ẩn lớp bong bóng, hiện ra Avatar Ớt (74441610995894)
-	-- + isMenuOpen = false (Đóng menu) -> Hiện lớp Bong Bóng (91322208361913) đứng đầu
 	local function syncBubbleIconState(isMenuOpen, animated)
 		bubble.Visible = true
 		if not bubbleFrontDisc or not centerLogo then return end
@@ -3325,10 +3305,10 @@ local function setupBubbleToggle(gui, win, titleLbl)
 					end
 				end)
 			else
+				bubbleFrontDisc.Visible = false
 				bubbleFrontDisc.BackgroundTransparency = 1
 				centerLogo.ImageTransparency = 1
 				if shimmerImg then shimmerImg.ImageTransparency = 1 end
-				bubbleFrontDisc.Visible = false
 			end
 		else
 			bubbleFrontDisc.Visible = true
@@ -3360,112 +3340,100 @@ local function setupBubbleToggle(gui, win, titleLbl)
 		end
 	end
 
+	local dragging, dragInput, dragStart, startPos = false, nil, nil, nil
 	local totalDragDist = 0
 	if not bubble:GetAttribute("__DragHooked") then
 		bubble:SetAttribute("__DragHooked", true)
-		local dragging = false
-		local dragStart, startPos
-
 		bubble.InputBegan:Connect(function(inp)
 			if inp.UserInputType == Enum.UserInputType.MouseButton1 or inp.UserInputType == Enum.UserInputType.Touch then
 				dragging = true
 				dragStart = inp.Position
 				startPos = bubble.Position
 				totalDragDist = 0
+				inp.Changed:Connect(function()
+					if inp.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
 			end
 		end)
-
+		bubble.InputChanged:Connect(function(inp)
+			if inp.UserInputType == Enum.UserInputType.MouseMovement or inp.UserInputType == Enum.UserInputType.Touch then
+				dragInput = inp
+			end
+		end)
 		UserInputSvc.InputChanged:Connect(function(inp)
-			if dragging and (inp.UserInputType == Enum.UserInputType.MouseMovement or inp.UserInputType == Enum.UserInputType.Touch) then
+			if inp == dragInput and dragging and dragStart and startPos then
 				local delta = inp.Position - dragStart
 				totalDragDist = delta.Magnitude
-				bubble.Position = UDim2.new(
-					startPos.X.Scale,
-					startPos.X.Offset + delta.X,
-					startPos.Y.Scale,
-					startPos.Y.Offset + delta.Y
-				)
-			end
-		end)
-
-		UserInputSvc.InputEnded:Connect(function(inp)
-			if inp.UserInputType == Enum.UserInputType.MouseButton1 or inp.UserInputType == Enum.UserInputType.Touch then
-				dragging = false
+				if totalDragDist > 6 then
+					bubble.Position = UDim2.new(
+						startPos.X.Scale, startPos.X.Offset + delta.X,
+						startPos.Y.Scale, startPos.Y.Offset + delta.Y
+					)
+				end
 			end
 		end)
 	end
 
-	if not State.OrigWinSize and (win.Size.X.Offset >= 200 or win.AbsoluteSize.X >= 200) then
-		State.OrigWinSize = win.Size
-		State.OrigWinPos = win.Position
-		State.OrigWinAnchor = win.AnchorPoint
+	local soundFolder = SoundService:FindFirstChild("ChilliBubbleSounds")
+	if not soundFolder then
+		soundFolder = Instance.new("Folder")
+		soundFolder.Name = "ChilliBubbleSounds"
+		soundFolder.Parent = SoundService
 	end
-
-	local function playToggleSound(soundId, vol, spd)
+	local function playToggleSound(id, vol, spd)
 		pcall(function()
-			local ss = game:GetService("SoundService")
-			local snd = Instance.new("Sound")
-			snd.SoundId = soundId
-			snd.Volume = vol or 0.65
-			snd.PlaybackSpeed = spd or 1.0
-			snd.Parent = ss or workspace
-			if ss and ss.PlayLocalSound then
-				pcall(function() ss:PlayLocalSound(snd) end)
-			else
-				pcall(function() snd:Play() end)
+			local s = soundFolder:FindFirstChild(id)
+			if not s then
+				s = Instance.new("Sound")
+				s.Name = id
+				s.SoundId = id
+				s.Parent = soundFolder
 			end
-			game:GetService("Debris"):AddItem(snd, 2)
+			s.Volume = vol or 0.7
+			s.PlaybackSpeed = spd or 1.0
+			s:Play()
 		end)
 	end
 
-	-- 1. BẤM MỞ MENU: Nút đổi từ Bong Bóng (91322208361913) sang hiện Avatar Ớt (74441610995894) & mở Menu mượt mà
+	local winScale = win:FindFirstChild("ChilliZeroLagScale")
+	if not winScale then
+		winScale = Instance.new("UIScale")
+		winScale.Name = "ChilliZeroLagScale"
+		winScale.Scale = 1.0
+		winScale.Parent = win
+	end
+
+	-- 1. MỞ MENU (SIÊU MƯỢT 0MS, KHÔNG QUÉT LẠI DOM)
 	local function openMenuAnimated()
 		if State.IsBubbleAnimating then return end
 		State.IsBubbleAnimating = true
 
 		playToggleSound("rbxassetid://6895079853", 0.75, 1.05)
-
-		-- Đổi nút sang Avatar Ớt (74441610995894)
 		syncBubbleIconState(true, true)
 
-		local bCenter = bubble.AbsolutePosition + (bubble.AbsoluteSize * 0.5)
-		local destPos = State.OrigWinPos or win.Position
-		local destSize = State.OrigWinSize or win.Size
-		local destAnchor = State.OrigWinAnchor or win.AnchorPoint
-
+		winScale.Scale = 0.92
 		win.Visible = true
-		win.AnchorPoint = destAnchor
-		win.Position = destPos
-		win.Size = destSize
 		State.CloseHideUntil = nil
-		State.IsBubbleAnimating = false
-		if titleLbl then
+
+		if win:GetAttribute("__SenaArchApplied") ~= SID and titleLbl then
 			pcall(applySenaV7Architecture, win, titleLbl)
 		end
-		State.IsBubbleAnimating = true
-
-		win.Position = UDim2.new(0, bCenter.X, 0, bCenter.Y)
-		win.Size = UDim2.new(0, 0, 0, 0)
 		if State.SyncWindowFn then pcall(State.SyncWindowFn) end
 
-		local openTween = TweenSvc:Create(win, TweenInfo.new(0.20, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
-			Position = destPos,
-			Size = destSize
+		local openTween = TweenSvc:Create(winScale, TweenInfo.new(0.14, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {
+			Scale = 1.0
 		})
 		openTween.Completed:Connect(function()
-			win.Position = destPos
-			win.Size = destSize
-			win.AnchorPoint = destAnchor
+			winScale.Scale = 1.0
 			State.IsBubbleAnimating = false
-			if titleLbl then
-				pcall(applySenaV7Architecture, win, titleLbl)
-			end
 			if State.SyncWindowFn then pcall(State.SyncWindowFn) end
 		end)
 		openTween:Play()
 	end
 
-	-- 2. ĐÓNG MENU: Menu đóng lại & nút đổi từ Avatar Ớt (74441610995894) về lại Bong Bóng (91322208361913)
+	-- 2. ĐÓNG MENU (SIÊU MƯỢT 0MS, KHÔNG QUÉT LẠI DOM)
 	local function closeMenuAnimated()
 		if State.IsBubbleAnimating then return end
 		if not win.Visible then
@@ -3474,29 +3442,15 @@ local function setupBubbleToggle(gui, win, titleLbl)
 		end
 		State.IsBubbleAnimating = true
 
-		if win.AbsoluteSize.X >= 300 then
-			State.OrigWinPos = win.Position
-			State.OrigWinSize = win.Size
-			State.OrigWinAnchor = win.AnchorPoint
-		end
-
 		playToggleSound("rbxassetid://6895079853", 0.65, 1.25)
-
-		-- Đổi nút về lại Bong Bóng (91322208361913)
 		syncBubbleIconState(false, true)
 
-		local bCenter = bubble.AbsolutePosition + (bubble.AbsoluteSize * 0.5)
-
-		local closeTween = TweenSvc:Create(win, TweenInfo.new(0.18, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {
-			Position = UDim2.new(0, bCenter.X, 0, bCenter.Y),
-			Size = UDim2.new(0, 0, 0, 0)
+		local closeTween = TweenSvc:Create(winScale, TweenInfo.new(0.12, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {
+			Scale = 0.92
 		})
-
 		closeTween.Completed:Connect(function()
 			win.Visible = false
-			if State.OrigWinPos then win.Position = State.OrigWinPos end
-			if State.OrigWinSize then win.Size = State.OrigWinSize end
-			if State.OrigWinAnchor then win.AnchorPoint = State.OrigWinAnchor end
+			winScale.Scale = 0.92
 			State.IsBubbleAnimating = false
 			if State.SyncWindowFn then pcall(State.SyncWindowFn) end
 		end)
@@ -3512,7 +3466,7 @@ local function setupBubbleToggle(gui, win, titleLbl)
 		local function handleBubbleTap()
 			if totalDragDist > 12 then return end
 			local now = os.clock()
-			if now - lastTapClock < 0.22 then return end
+			if now - lastTapClock < 0.20 then return end
 			lastTapClock = now
 			if State.IsBubbleAnimating then return end
 			if win.Visible then
@@ -3819,19 +3773,8 @@ if oldTGrad then oldTGrad:Destroy() end
 titleObj.TextColor3 = Color3.new(1, 1, 1)
 local hdrFrame = titleObj.Parent
 if hdrFrame and hdrFrame:IsA("GuiObject") then
-if not hdrFrame:FindFirstChild("ChillFinderHeaderNeonLine") then
-local hLine = mk("Frame", {
-Name = "ChillFinderHeaderNeonLine",
-AnchorPoint = v2(0.5, 1),
-Position = u2(0.5, 0, 1, 0),
-Size = u2(1, 0, 0, 2),
-BackgroundColor3 = Color3.new(1, 1, 1),
-BorderSizePixel = 0,
-ZIndex = math.max((hdrFrame.ZIndex or 1) + 2, 8)
-}, hdrFrame)
-local hlGrad = mk("UIGradient", { Name = "NeonLineGrad", Color = FINDER_BORDER_NEON_GRAD }, hLine)
-addGrad(hlGrad)
-end
+local oldHLine = hdrFrame:FindFirstChild("ChillFinderHeaderNeonLine")
+if oldHLine then oldHLine:Destroy() end
 end
 local winFrame = getFinderWindowFromObj(titleObj)
 if winFrame then
@@ -4201,7 +4144,7 @@ BackgroundTransparency = 1,
 Font = Enum.Font.GothamBlack,
 TextSize = 13.5,
 TextColor3 = Color3.new(1, 1, 1),
-Text = statusText or (State.Language == "EN" and "Teleporting to New Server..." or "Đang dịch chuyển đến máy chủ mới..."),
+Text = statusText or (State.Language == "EN" and "Connecting to Target Pet Server..." or "Đang kết nối vào máy chủ chứa Pet..."),
 TextTruncate = Enum.TextTruncate.None
 }, card)
 mk("UIStroke", { Thickness = 1.2, Color = c3(8, 10, 18), Transparency = 0.2 }, mainTitle)
@@ -4214,7 +4157,7 @@ BackgroundTransparency = 1,
 Font = Enum.Font.GothamBold,
 TextSize = 10.5,
 TextColor3 = c3(175, 205, 255),
-Text = subText or (State.Language == "EN" and "Searching for the least-populated server..." or "Đang tìm kiếm máy chủ ít người chơi nhất..."),
+Text = subText or (State.Language == "EN" and "Synchronizing target server instance..." or "Đang đồng bộ dữ liệu máy chủ mục tiêu..."),
 TextTruncate = Enum.TextTruncate.None
 }, card)
 
@@ -5758,13 +5701,58 @@ OpenKeySystemUI = function()
 	TweenService:Create(MainScale, TweenInfo.new(0.26, Enum.EasingStyle.Back, Enum.EasingDirection.Out), { Scale = 0.95 }):Play()
 end
 
+local function extractFinderPetNameFromJoinBtn(joinLbl)
+	if not joinLbl or not joinLbl.Parent then return nil end
+	local row = joinLbl.Parent
+	for _ = 1, 4 do
+		if not row or row:IsA("ScreenGui") or row:IsA("ScrollingFrame") or row == State.ActiveFinderWin then break end
+		if row:IsA("GuiObject") and row.AbsoluteSize.X >= 180 and row.AbsoluteSize.Y >= 24 and row.AbsoluteSize.Y <= 135 then
+			break
+		end
+		row = row.Parent
+	end
+	if not row or not row:IsA("GuiObject") then return nil end
+	local bestName = nil
+	local bestSize = -1
+	for _, d in ipairs(row:GetDescendants()) do
+		if d:IsA("TextLabel") and d ~= joinLbl and d.Visible then
+			local t = stripRichTags(d.Text or ""):match("^%s*(.-)%s*$")
+			local low = t:lower()
+			if #t >= 3
+			   and low ~= "join" and low ~= "vào ngay"
+			   and not low:find("⏳", 1, true)
+			   and not low:find("copy", 1, true)
+			   and not low:find("trước", 1, true)
+			   and not low:find(" ago", 1, true)
+			   and not low:find("chillihub", 1, true)
+			   and not t:match("^%d+%s*/%s*%d+$") then
+				local sz = d.TextSize or 12
+				if sz > bestSize then
+					bestSize = sz
+					bestName = t
+				end
+			end
+		end
+	end
+	return bestName
+end
+
 executeRawHopToLeastPlayersServer = function(joinLbl)
 if State.JoiningLeastServerBusy and (os.clock() - (State.LastJoinHopClock or 0) < 2.0) then return end
 State.JoiningLeastServerBusy = true
 State.LastJoinHopClock = os.clock()
 playIslandSfx("action")
 
-local transOverlay = showTeleportTransitionOverlay()
+local petName = extractFinderPetNameFromJoinBtn(joinLbl)
+local petDisplay = (petName and #petName > 0) and petName or ((State.Language == "EN") and "Rare Pet" or "Pet Hiếm")
+local initMain = (State.Language == "EN")
+	and ("Joining server with " .. petDisplay .. "...")
+	or ("Đang vào máy chủ có " .. petDisplay .. "...")
+local initSub = (State.Language == "EN")
+	and ("Synchronizing server instance for " .. petDisplay .. "...")
+	or ("Đang đồng bộ phòng chứa " .. petDisplay .. "...")
+
+local transOverlay = showTeleportTransitionOverlay(initMain, initSub)
 
 task.spawn(function()
 local origTxt = (State.Language == "EN") and "Join" or "Vào ngay"
@@ -5773,12 +5761,12 @@ hideFinderSignInBox(sg)
 if joinLbl and (joinLbl:IsA("TextLabel") or joinLbl:IsA("TextButton")) then
 joinLbl:SetAttribute("__IsTranslating", true)
 joinLbl:SetAttribute("__TranslatingFinderHud", true)
-pcall(function() joinLbl.Text = "⏳ Đang đổi..." end)
+pcall(function() joinLbl.Text = "⏳ Đang vào..." end)
 end
 if State.ActiveStatusLbl and State.ActiveStatusLbl.Parent then
 pcall(function()
 State.ActiveStatusLbl:SetAttribute("__Updating", true)
-State.ActiveStatusLbl.Text = "⚡ Đang tìm server ít người nhất..."
+State.ActiveStatusLbl.Text = "⚡ Đang vào server có " .. petDisplay .. "..."
 State.ActiveStatusLbl:SetAttribute("__Updating", false)
 end)
 end
@@ -5813,14 +5801,18 @@ end
 end)
 end)
 
-local hopMainTxt = (State.Language == "EN") and "Teleporting to Server..." or "Đang dịch chuyển vào server..."
-local hopSubTxt = (State.Language == "EN") and ("Target server (" .. tostring(srvObj.playing) .. " players)...") or ("Máy chủ mục tiêu (" .. tostring(srvObj.playing) .. " người)...")
+local hopMainTxt = (State.Language == "EN")
+	and ("Teleporting to server with " .. petDisplay .. "...")
+	or ("Đang dịch chuyển vào server có " .. petDisplay .. "...")
+local hopSubTxt = (State.Language == "EN")
+	and ("Verified " .. petDisplay .. " location • Joining room...")
+	or ("Đã xác thực vị trí " .. petDisplay .. " • Đang kết nối vào phòng...")
 transOverlay.update(hopMainTxt, hopSubTxt, false)
 
 if State.ActiveStatusLbl and State.ActiveStatusLbl.Parent then
 pcall(function()
 State.ActiveStatusLbl:SetAttribute("__Updating", true)
-State.ActiveStatusLbl.Text = "⚡ Đang vào server (" .. tostring(srvObj.playing) .. " người)..."
+State.ActiveStatusLbl.Text = "⚡ Đang kết nối tới " .. petDisplay .. "..."
 State.ActiveStatusLbl:SetAttribute("__Updating", false)
 end)
 end
@@ -5847,13 +5839,17 @@ teleportSuccess = true
 break
 else
 suppressTeleportErrorPrompt()
-local warnMain = (State.Language == "EN") and "Server Full (Error 772)" or "Máy chủ đã đầy (Mã lỗi 772)"
-local warnSub = (State.Language == "EN") and "Auto-skipping to next server..." or "Tự động chuyển sang máy chủ khác..."
+local warnMain = (State.Language == "EN")
+	and ("Server with " .. petDisplay .. " is full (772)")
+	or ("Máy chủ chứa " .. petDisplay .. " vừa đầy (772)")
+local warnSub = (State.Language == "EN")
+	and ("Switching to next server with " .. petDisplay .. "...")
+	or ("Đang chuyển sang máy chủ tiếp theo có " .. petDisplay .. "...")
 transOverlay.update(warnMain, warnSub, true)
 if State.ActiveStatusLbl and State.ActiveStatusLbl.Parent then
 pcall(function()
 State.ActiveStatusLbl:SetAttribute("__Updating", true)
-State.ActiveStatusLbl.Text = "⚡ Server đầy (772), tự đổi server khác..."
+State.ActiveStatusLbl.Text = "⚡ Phòng đầy (772), đang vào phòng khác có " .. petDisplay .. "..."
 State.ActiveStatusLbl:SetAttribute("__Updating", false)
 end)
 end
@@ -6211,6 +6207,7 @@ end
 watchFinderTextObj = function(d)
 if not d or not (d:IsA("TextButton") or d:IsA("TextLabel")) then return end
 if d.Name == "ChilliFinderJoinInterceptor" then return end
+if State.ActiveMainWin and d:IsDescendantOf(State.ActiveMainWin) then return end
 pcall(sanitizeChillFinderFreeObj, d)
 pcall(watchFinderHudButton, d)
 local checkT = stripRichTags(d.Text):lower()
